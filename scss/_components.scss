@@ -1,0 +1,96 @@
+.timeline-card {
+  min-height: 168px;
+  background-color: $light;
+  color: $blue;
+  border-radius: 10px;
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.05);
+  position: relative;
+  padding: 20px;
+  @include poppinsFont();
+  border-radius: 5px;
+  transition: all 0.3s;
+  &-date {
+    font-size: 14px;
+  }
+  &-title {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  &-icon {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    font-size: 100px;
+    color: rgba($color: #0c8deb, $alpha: 0.05);
+  }
+  &:hover {
+    color: $white;
+    background-color: $blue;
+    .timeline-card-icons {
+      color: white;
+    }
+  }
+}
+
+.company-card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+.company-card {
+  text-decoration: none;
+  width: 100%;
+  // flex: 0.2;
+  display: block;
+  height: 100%;
+  background-color: $white;
+  border-radius: 5px;
+  &-img {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #ced4da;
+    animation: fade 2s infinite;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  &-title {
+    padding: 0px 10px 10px 10px;
+    text-align: center;
+    @include poppinsFont();
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+.bubble-yellow {
+  background-color: rgba($color: $yellow, $alpha: 0.2);
+}
+
+.bubble-blue {
+  background-color: rgba($color: $blue, $alpha: 0.1);
+}
+
+@keyframes fade {
+  0% {
+    background: #ced4da;
+  }
+  50% {
+    background: #e9ecef;
+  }
+  100% {
+    background: #ced4da;
+  }
+}
+
+.footer {
+  background-color: $blue;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}

@@ -1,0 +1,43 @@
+.main-banner {
+  width: 100%;
+  height: calc(100vh - 68.8px);
+  background-color: $blue;
+  position: relative;
+  align-items: center;
+  // padding-top: 60px;
+}
+
+@media (max-width: 971px) {
+  .main-banner {
+    height: 100%;
+    padding-bottom: 40px;
+  }
+}
+
+#sponsor-section {
+  margin-top: 80px;
+  width: 100%;
+  h1 {
+    text-align: center;
+  }
+}
+
+#latar-belakang-section {
+  margin-top: 70px;
+  p {
+    @include poppinsFont();
+    font-size: 14px !important;
+  }
+}
+
+#timeline-kegiatan-section {
+  margin-top: 70px;
+  p {
+    @include poppinsFont();
+    font-size: 14px !important;
+  }
+}
+
+#the-companies-section {
+  margin-top: 70px;
+}
