@@ -1,4 +1,6 @@
-const IVFCompanies = [
+AOS.init();
+
+const careerExpoCompanies = [
   {
     id: 1,
     title: 'Innojam',
@@ -61,10 +63,9 @@ const IVFCompanies = [
   },
 ];
 
-let IVFFull = '';
-IVFCompanies.forEach((ivf) => {
-  IVFFull += companyCardGenerator(ivf.title, ivf.link, ivf.image);
+let careerExpo = '';
+careerExpoCompanies.forEach((career) => {
+  careerExpo += companyCardGenerator(career.title, career.link, career.image);
 });
 
-document.getElementById('accordionPanelsStayOpenExample').innerHTML +=
-  accordionActiveGenerator('ivf-academy', 'IVF Academy', IVFFull);
+document.getElementById('company-card-wrapper').innerHTML = careerExpo;

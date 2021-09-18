@@ -1,0 +1,19 @@
+.register-box {
+  height: 100%;
+  background-color: rgba($color: #0c8deb, $alpha: 0.08);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  @include poppinsFont();
+  h2 {
+    text-align: center;
+    color: #0c8deb;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  p {
+    font-size: 14px;
+    text-align: center;
+  }
+}

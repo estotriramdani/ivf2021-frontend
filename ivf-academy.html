@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="id">
   <head>
+    <script src="js/utils/tableRunDownGenerator.js"></script>
     <script>
-      const headerTitle = 'REGISTRASI';
+      const headerTitle = 'IVF Academy';
+      const activityDescription = `Serangkaian kegiatan training yang dilaksanakan untuk mempersiapkan jobseeker supaya lebih siap dalam mengikuti serangkaian seleksi kerja pada IPB Virtual Fair 2021. Materi yang akan disampaikan dalam kegiatan IVF Academy adalah serangkaian materi seleksi, dan CDA IPB bekerjasama dengan beberapa perusahaan konsultan SDM untuk menjadi narasumber serta trainer pada kegiatan tersebut.`;
+      const activityIllustration =
+        'http://dummyimage.com/300x400.png/0c8deb/ffffff';
     </script>
-    <title>IPB Virtual Fair | Register</title>
+    <title>IPB Virtual Fair | IVF Academy</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -37,46 +41,28 @@
     <section id="page-header">
       <!-- rendered by JS -->
     </section>
-    <div class="container">
-      <div class="row">
-        <div class="col-md p-4">
-          <div class="register-box p-4">
-            <h2 class="mb-3">Jobseeker</h2>
-            <div class="mb-3">
-              <p>
-                Bagi Jobseeker yang belum menjadi member CDA IPB, Silahkan
-                daftarkan diri anda sebagai member CDA IPB melalui link
-                Membership agar anda dapat mengikuti IPB Virtual Fair 2021
-              </p>
-              <p>
-                Bagi Jobseeker yang sudah menjadi member CDA IPB, anda dapat
-                langsung melihat dan melamar pada lowongan yang ada di IPB
-                Virtual Fair 2021
-              </p>
-            </div>
-            <a
-              href="https://cda.ipb.ac.id/member/register/index/gid/5"
-              class="button button-blue"
-              >DAFTAR</a
+    <section class="mb-5" id="description-section" data-aos="fade-up">
+      <div class="container bg-secondary rounded-3" style="height: 400px"></div>
+    </section>
+
+    <section id="rundown-table" class="mt-5" data-aos="fade-up">
+      <div class="container">
+        <div class="rundown-table">
+          <div class="row">
+            <div
+              class="col-md-3 d-flex d-md-block overflow-auto mb-3 mb-md-0"
+              style="gap: 10px"
+              id="button-toggle-wrapper"
             >
-          </div>
-        </div>
-        <div class="col-md p-4">
-          <div class="register-box p-4">
-            <h2 class="mb-3">Employer</h2>
-            <div class="mb-3">
-              <p>
-                Bagi perusahaan yang ingin bergabung pada IPB Virtual Fair 2021,
-                dapat menghubungi kami melalui cdaipb@apps.ipb.ac.id.
-              </p>
+              <!-- rendered by JS -->
             </div>
-            <a href="mailto:cdaipb@apps.ipb.ac.id" class="button button-blue"
-              >EMAIL KAMI</a
-            >
+            <div class="col-md" id="rundown-list">
+              <!-- rendered by JS -->
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <section id="sponsor-section">
       <div class="container">
         <h1 class="mb-5">Sponsored by</h1>
@@ -91,6 +77,7 @@
     <script src="js/components/footer.js"></script>
     <script src="js/components/home/sponsor.js"></script>
     <script src="js/components/page-header.js"></script>
-    <script src="js/register.js" defer></script>
+    <script src="js/components/description-section.js"></script>
+    <script src="js/ivf-academy.js"></script>
   </body>
 </html>

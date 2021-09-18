@@ -1,0 +1,29 @@
+.bg-blue {
+  background-color: $blue;
+}
+
+.slick-prev:before {
+  color: $blue !important;
+}
+.slick-next:before {
+  color: $blue !important;
+}
+
+h1 {
+  @include poppinsFont();
+  font-weight: 500;
+  font-size: 25px !important;
+  color: $blue;
+  position: relative;
+  &:after {
+    position: absolute;
+    content: '';
+    width: 105px;
+    height: 4px;
+    margin: auto;
+    background-color: $blue;
+    bottom: -13px;
+    left: 0;
+    right: 0;
+  }
+}

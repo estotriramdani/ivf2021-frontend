@@ -1,0 +1,17 @@
+.description-text {
+  background-color: rgba($color: #0c8deb, $alpha: 0.05);
+  @include poppinsFont();
+  border-radius: 20px;
+  h3 {
+    color: $blue;
+    font-weight: 500;
+    font-size: 21px;
+  }
+  p {
+    text-align: justify;
+    font-size: 14px;
+  }
+}
+.description-image {
+  border-radius: 20px;
+}

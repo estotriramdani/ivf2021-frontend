@@ -1,0 +1,9 @@
+.rundown-table-tr {
+  @include poppinsFont();
+  color: $blue;
+  font-size: 16px;
+  border-radius: 10px;
+  &:hover {
+    color: #0c8deb !important;
+  }
+}

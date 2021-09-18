@@ -2,6 +2,8 @@
 <html lang="id">
   <head>
     <title>IPB Virtual Fair | Home</title>
+    <script src="js/utils/accordionGenerator.js"></script>
+    <script src="js/utils/companyCardGenerator.js"></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,9 +25,7 @@
       integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
       crossorigin="anonymous"
     ></script>
-    <script src="js/components/bubble.js" defer></script>
-    <script src="js/components/navbar.js" defer></script>
-    <script src="js/components/footer.js" defer></script>
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="text/javascript" src="vendor/slick/slick.js"></script>
     <link rel="stylesheet" href="vendor/slick/slick-theme.css" />
@@ -39,6 +39,11 @@
           <div class="col-lg-10 col-md-12 col-12 pt-lg-5" id="slider-home">
             <!-- Slider Main Home -->
             <!-- render in js/components/home/slider-home.js -->
+            <div
+              class="container bg-secondary rounded-3"
+              style="height: 400px"
+            ></div>
+
             <!-- End of Slider -->
           </div>
         </div>
@@ -48,14 +53,14 @@
     <div class="container">
       <div class="row justify-content-center mt-4">
         <div class="col-md-4 mb-3 mb-lg-0">
-          <a href="" class="btn btn-info text-white d-inline-block w-100"
+          <a href="" class="button button-blue text-white d-inline-block w-100"
             >LOGIN</a
           >
         </div>
         <div class="col-md-4">
           <a
             href="register.html"
-            class="btn btn-info text-white d-inline-block w-100"
+            class="button button-blue text-white d-inline-block w-100"
             >REGISTRASI</a
           >
         </div>
@@ -104,7 +109,9 @@
     <script src="js/script.js"></script>
     <script src="js/home.js" defer></script>
     <!-- component rendering -->
-
+    <script src="js/components/bubble.js"></script>
+    <script src="js/components/navbar.js"></script>
+    <script src="js/components/footer.js"></script>
     <script src="js/components/home/slider-home.js"></script>
     <script src="js/components/home/sponsor.js"></script>
     <script src="js/components/home/latar-belakang.js"></script>

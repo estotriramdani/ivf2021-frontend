@@ -1,0 +1,21 @@
+@import 'bubble';
+@import 'button';
+@import 'card';
+@import 'description-section';
+@import 'footer';
+@import 'navbar';
+@import 'page-header';
+@import 'register-box';
+@import 'table';
+
+@keyframes fade {
+  0% {
+    background: #ced4da;
+  }
+  50% {
+    background: #e9ecef;
+  }
+  100% {
+    background: #ced4da;
+  }
+}

@@ -1,33 +1,3 @@
-function accordionGenerator(id, title, cards) {
-  return `
-  <div class="accordion-item" data-aos="fade-up">
-    <h2 class="accordion-header" id="${id}-heading">
-      <button
-        class="accordion-button collapsed"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#${id}"
-        aria-expanded="false"
-        aria-controls="${id}"
-      >
-        ${title}
-      </button>
-    </h2>
-    <div
-      id="${id}"
-      class="accordion-collapse collapse"
-      aria-labelledby="${id}-heading"
-    >
-      <div class="accordion-body">
-        <div class="row">
-          ${cards}
-        </div>
-      </div>
-    </div>
-  </div>
-  `;
-}
-
 const careerExpoCompanies = [
   {
     id: 1,
@@ -216,22 +186,6 @@ const entrepreneurExpoCompanies = [
     image: 'http://dummyimage.com/300x400.png/dddddd/000000',
   },
 ];
-
-function companyCardGenerator(title, link, image) {
-  return `
-  <div class="col-md-4 col-lg-2 col-sm-6 p-2" data-aos="fade-up">
-    <a href="${link}" class="company-card shadow-sm">
-      <div class="company-card-img">
-        <img
-          src="${image}"
-          alt="${title}"
-        />
-      </div>
-      <p class="company-card-title">${title}</p>
-    </a>
-  </div>
-  `;
-}
 
 let careerExpo = '';
 careerExpoCompanies.forEach((career) => {

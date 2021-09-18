@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="id">
   <head>
+    <script src="js/utils/tableRunDownGenerator.js"></script>
     <script>
       const headerTitle = 'JADWAL PELAKSANAAN WEBINAR SERIES';
+      const activityDescription = `Presentasi perusahaan ataupun industrial insight dari perusahaan peserta IPB Virtual Fair 2021 melalui media online, dengan tujuan memberikan wawasan mengenai profil perusahaan dan jenjang karir di perusahaannya.`;
+      const activityIllustration =
+        'http://dummyimage.com/300x400.png/dddddd/000000';
     </script>
     <title>IPB Virtual Fair | Webinar</title>
     <meta charset="UTF-8" />
@@ -31,12 +35,6 @@
     <script type="text/javascript" src="vendor/slick/slick.js"></script>
     <link rel="stylesheet" href="vendor/slick/slick-theme.css" />
     <link rel="stylesheet" href="vendor/slick/slick.css" />
-
-    <!-- component render -->
-    <script src="js/components/navbar.js" defer></script>
-    <script src="js/components/footer.js" defer></script>
-    <script src="js/components/home/sponsor.js" defer></script>
-    <script src="js/components/page-header.js" defer></script>
   </head>
   <body class="position-relative">
     <section id="navbar" class="sticky-top"></section>
@@ -44,7 +42,7 @@
       <!-- rendered by JS -->
     </section>
     <section class="mb-5" id="description-section" data-aos="fade-up">
-      here
+      <div class="container bg-secondary rounded-3" style="height: 400px"></div>
     </section>
 
     <section id="rundown-table" class="mt-5" data-aos="fade-up">
@@ -56,7 +54,7 @@
               style="gap: 10px"
               id="button-toggle-wrapper"
             >
-            <!-- rendered by JS -->
+              <!-- rendered by JS -->
             </div>
             <div class="col-md" id="rundown-list">
               <!-- rendered by JS -->
@@ -75,6 +73,11 @@
     </section>
     <footer class="footer p-4 mt-5"></footer>
     <script src="js/components/description-section.js"></script>
-    <script src="js/webinar.js"></script>
+    <!-- component render -->
+    <script src="js/components/navbar.js"></script>
+    <script src="js/components/footer.js"></script>
+    <script src="js/components/home/sponsor.js"></script>
+    <script src="js/components/page-header.js"></script>
+    <script src="js/webinar.js" defer></script>
   </body>
 </html>
