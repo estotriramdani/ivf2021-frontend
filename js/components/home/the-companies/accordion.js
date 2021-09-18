@@ -1,6 +1,6 @@
 function accordionGenerator(id, title, cards) {
   return `
-  <div class="accordion-item">
+  <div class="accordion-item" data-aos="fade-up">
     <h2 class="accordion-header" id="${id}-heading">
       <button
         class="accordion-button collapsed"
@@ -219,7 +219,7 @@ const entrepreneurExpoCompanies = [
 
 function companyCardGenerator(title, link, image) {
   return `
-  <div class="col-md-4 col-lg-2 col-sm-6 p-2">
+  <div class="col-md-4 col-lg-2 col-sm-6 p-2" data-aos="fade-up">
     <a href="${link}" class="company-card shadow-sm">
       <div class="company-card-img">
         <img

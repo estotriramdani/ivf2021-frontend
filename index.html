@@ -23,14 +23,16 @@
       integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
       crossorigin="anonymous"
     ></script>
-
+    <script src="js/components/bubble.js" defer></script>
+    <script src="js/components/navbar.js" defer></script>
+    <script src="js/components/footer.js" defer></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="text/javascript" src="vendor/slick/slick.js"></script>
     <link rel="stylesheet" href="vendor/slick/slick-theme.css" />
     <link rel="stylesheet" href="vendor/slick/slick.css" />
   </head>
   <body class="position-relative">
-    <section id="navbar"></section>
+    <section id="navbar" class="sticky-top"></section>
     <div class="main-banner">
       <div class="container-fluid" data-aos="fade-up">
         <div class="row justify-content-center">
@@ -39,6 +41,23 @@
             <!-- render in js/components/home/slider-home.js -->
             <!-- End of Slider -->
           </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-center mt-4">
+        <div class="col-md-4 mb-3 mb-lg-0">
+          <a href="" class="btn btn-info text-white d-inline-block w-100"
+            >LOGIN</a
+          >
+        </div>
+        <div class="col-md-4">
+          <a
+            href="register.html"
+            class="btn btn-info text-white d-inline-block w-100"
+            >REGISTRASI</a
+          >
         </div>
       </div>
     </div>
@@ -85,17 +104,14 @@
     <script src="js/script.js"></script>
     <script src="js/home.js" defer></script>
     <!-- component rendering -->
-    <script src="js/components/bubble.js" defer></script>
-    <script src="js/components/navbar.js" defer></script>
+
     <script src="js/components/home/slider-home.js"></script>
     <script src="js/components/home/sponsor.js"></script>
     <script src="js/components/home/latar-belakang.js"></script>
     <script src="js/components/home/timeline.js"></script>
-    <script
-      src="js/components/home/the-companies/accordion-active.js"
-      defer
-    ></script>
-    <script src="js/components/home/the-companies/accordion.js" defer></script>
+
+    <script src="js/components/home/the-companies/accordion-active.js"></script>
+    <script src="js/components/home/the-companies/accordion.js"></script>
 
     <!-- harus paling akhir dipanggilnya -->
     <script src="js/components/home/running-logo.js"></script>

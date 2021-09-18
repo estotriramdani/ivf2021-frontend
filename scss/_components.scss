@@ -94,3 +94,65 @@
   border-top-right-radius: 30px;
   border-top-left-radius: 30px;
 }
+
+.page-header {
+  padding: 25px;
+  background-color: $blue;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-bottom: 40px;
+  &-title {
+    color: white;
+    font-size: 24px;
+    @include poppinsFont();
+  }
+}
+
+.description-text {
+  background-color: rgba($color: #0c8deb, $alpha: 0.05);
+  @include poppinsFont();
+  border-radius: 20px;
+  h3 {
+    color: $blue;
+    font-weight: 500;
+    font-size: 21px;
+  }
+  p {
+    text-align: justify;
+    font-size: 14px;
+  }
+}
+.description-image {
+  border-radius: 20px;
+}
+
+.rundown-table-tr {
+  @include poppinsFont();
+  color: $blue;
+  font-size: 16px;
+  border-radius: 10px;
+  &:hover {
+    color: #0c8deb !important;
+  }
+}
+
+.register-box {
+  height: 100%;
+  background-color: rgba($color: #0c8deb, $alpha: 0.08);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  @include poppinsFont();
+  h2 {
+    text-align: center;
+    color: #0c8deb;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  p {
+    font-size: 14px;
+    text-align: center;
+  }
+}
