@@ -47,7 +47,7 @@ const navbarHTML = `
             <li><a class="dropdown-item" href="${baseUrl}career-expo.html">Career Expo</a></li>
             <li><a class="dropdown-item" href="${baseUrl}internship-expo.html">Internship Expo</a></li>
             <li><a class="dropdown-item" href="${baseUrl}scholarship-expo.html">Scholarship Expo</a></li>
-            <li><a class="dropdown-item" href="${baseUrl}entrepreneur-expo.html">Entrepreneurship Expo</a></li>
+            <li><a class="dropdown-item" href="${baseUrl}entrepreneurship-expo.html">Entre. Expo</a></li>
           </ul>
         </li>
         <li class="nav-item p-lg-1 mb-2 mb-lg-0">
@@ -57,7 +57,7 @@ const navbarHTML = `
           <a class="nav-link button-white" href="${baseUrl}live-chat.html">Live Chat</a>
         </li>
         <li class="nav-item p-lg-1 mb-2 mb-lg-0">
-          <a class="nav-link button-white" href="${baseUrl}vacancy.html">Vacancy</a>
+          <a class="nav-link button-white" href="https://cda.ipb.ac.id/vacancy/site" target="_blank">Vacancy</a>
         </li>
       </ul>
     </div>

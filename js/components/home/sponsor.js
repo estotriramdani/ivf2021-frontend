@@ -1,5 +1,5 @@
 const sponsorOne = `
-<a href="" target="_blank">
+<a href="company-detail.html">
   <img
     src="logo/bi.png"
     alt="logo bank indonesia"
@@ -9,7 +9,7 @@ const sponsorOne = `
 `;
 
 const sponsorTwo = `
-<a href="" target="_blank">
+<a href="company-detail.html">
   <img
     src="logo/pegadaian-logo.png"
     alt="logo pegadaian"

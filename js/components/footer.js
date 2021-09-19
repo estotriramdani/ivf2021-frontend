@@ -54,6 +54,11 @@ const footer = `
           </div>
         </div>
       </div>
+      <div class="row mt-4 text-white">
+        <div class="col-md">
+          <p class="text-center">© Copyright 2020. CDA IPB. All Rights Reserved.</p>
+        </div>
+      </div>
 `;
 
 const footerNode = document.querySelector('footer');

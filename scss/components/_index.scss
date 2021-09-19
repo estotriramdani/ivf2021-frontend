@@ -8,6 +8,13 @@
 @import 'register-box';
 @import 'table';
 
+.company-description-box {
+  background-color: rgba($color: #0c8deb, $alpha: 0.05);
+  p {
+    font-size: 1em;
+  }
+}
+
 @keyframes fade {
   0% {
     background: #ced4da;

@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html lang="id">
   <head>
-    <script>
-      const headerTitle = 'LIVE CHAT';
-      const activityDescription = `Live Chat With Companies merupakan kegiatan interaksi online antara perusahaan dengan applicants menggunakan chatting online tawk.to .
-                                    <br/> <br/>
-                                  Aplicants tentu akan mendapat banyak informasi yang bermanfaat langsung dari sumber terpercaya yakni perusahaan yang bersangkutan.`;
-      const activityIllustration =
-        'http://dummyimage.com/300x400.png/0c8deb/ffffff';
-    </script>
-    <title>IPB Virtual Fair | Live Chat</title>
-    <meta charset="UTF-8" />
+    <script src="js/utils/companyCardGenerator.js"></script>
     <link rel="icon" href="favicon.png" />
+    <script>
+      const headerTitle = 'Entrepreneurship EXPO';
+    </script>
+    <title>IPB Virtual Fair | Entrepreneurship Expo</title>
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="icon" content="favicon.png" />
@@ -32,40 +28,21 @@
       integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
       crossorigin="anonymous"
     ></script>
-
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="text/javascript" src="vendor/slick/slick.js"></script>
     <link rel="stylesheet" href="vendor/slick/slick-theme.css" />
     <link rel="stylesheet" href="vendor/slick/slick.css" />
-
-    <!-- component render -->
   </head>
   <body class="position-relative">
     <section id="navbar" class="sticky-top"></section>
     <section id="page-header">
       <!-- rendered by JS -->
     </section>
-    <section class="mb-5" id="description-section" data-aos="fade-up">
-      <div class="container bg-secondary rounded-3" style="height: 400px"></div>
-    </section>
-    <section id="live-chat-card-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md p-2">
-            <div class="live-chat-card p-4" data-aos="fade-right">
-              <p>Tanggal Pelaksanaan</p>
-              <h2>22 - 26 Maret 2021</h2>
-            </div>
-          </div>
-          <div class="col-md p-2">
-            <div class="live-chat-card p-4" data-aos="fade-left">
-              <p>Waktu Pelaksaan</p>
-              <h2>10:00 - 13:00</h2>
-            </div>
-          </div>
-        </div>
+    <div class="container mt-3">
+      <div class="row justify-content-center" id="company-card-wrapper">
+        <!-- rendered by JS -->
       </div>
-    </section>
+    </div>
     <section id="sponsor-section">
       <div class="container">
         <h1 class="mb-5">Sponsored by</h1>
@@ -75,13 +52,11 @@
       </div>
     </section>
     <footer class="footer p-4 mt-5"></footer>
+    <!-- component render -->
     <script src="js/components/navbar.js"></script>
     <script src="js/components/footer.js"></script>
     <script src="js/components/home/sponsor.js"></script>
     <script src="js/components/page-header.js"></script>
-    <script src="js/components/description-section.js"></script>
-    <script>
-      AOS.init();
-    </script>
+    <script src="js/career-expo.js" defer></script>
   </body>
 </html>
