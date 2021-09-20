@@ -15,6 +15,18 @@
   }
 }
 
+.company-name {
+  @include poppinsFont();
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.company-address {
+  @include poppinsFont();
+  font-size: 18px;
+  font-weight: 500;
+}
+
 @keyframes fade {
   0% {
     background: #ced4da;

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <script>
+      const headerTitle = 'VACANCY';
+    </script>
+    <title>IPB Virtual Fair | Vacancy</title>
+    <link rel="icon" href="favicon.png" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="icon" content="favicon.png" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="vendor/slick/slick.js"></script>
+    <link rel="stylesheet" href="vendor/slick/slick-theme.css" />
+    <link rel="stylesheet" href="vendor/slick/slick.css" />
+  </head>
+  <body class="position-relative">
+    <section id="navbar" class="sticky-top"></section>
+    <section id="page-header">
+      <!-- rendered by JS -->
+    </section>
+    <div class="container" id="company-vacancy">
+      <!-- info perusahaan -->
+      <div class="row mb-3">
+        <div class="col-md-3">
+          <img
+            src="https://cda.ipb.ac.id/themes/jobfair/images/public/pegadaian-logo.png"
+            alt="logo perusahaan"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-sm-7 col-md-6">
+          <p class="company-name">PT Pegadaian (Persero)</p>
+          <p class="company-address">
+            Kota Administrasi Jakarta Selatan, Indonesia
+          </p>
+        </div>
+        <div class="col-sm-2 col-md-3">
+          <a href="detail-company.html" class="button button-blue"
+            >DETAIL PERUSAHAAN</a
+          >
+        </div>
+      </div>
+      <!-- list lowongan -->
+      <div class="table-responsive">
+        <table class="table table-borderless">
+          <tbody>
+            <tr>
+              <td>1. Another Job</td>
+              <td style="width: 150px">
+                <a
+                  href="#"
+                  onclick="alert('Masuk ke halaman vacancy website CDA')"
+                  class="button button-blue"
+                  style="padding: 5px !important"
+                  >Lamar</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>2. Another Second Job</td>
+              <td style="width: 150px">
+                <a
+                  href="#"
+                  onclick="alert('Masuk ke halaman vacancy website CDA')"
+                  class="button button-blue"
+                  style="padding: 5px !important"
+                  >Lamar</a
+                >
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <hr />
+    </div>
+    <section id="sponsor-section">
+      <div class="container">
+        <h1 class="mb-5">Sponsored by</h1>
+        <div class="sponsor-image mb-3" data-aos="fade-up">
+          <!-- render in js/components/home/sponsor.js -->
+        </div>
+      </div>
+    </section>
+    <footer class="footer p-4 mt-5"></footer>
+    <!-- component render -->
+    <script src="js/components/navbar.js"></script>
+    <script src="js/components/footer.js"></script>
+    <script src="js/components/home/sponsor.js"></script>
+    <script src="js/components/page-header.js"></script>
+    <script src="js/vacancy.js" defer></script>
+  </body>
+</html>

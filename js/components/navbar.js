@@ -57,7 +57,7 @@ const navbarHTML = `
           <a class="nav-link button-white" href="${baseUrl}live-chat.html">Live Chat</a>
         </li>
         <li class="nav-item p-lg-1 mb-2 mb-lg-0">
-          <a class="nav-link button-white" href="https://cda.ipb.ac.id/vacancy/site" target="_blank">Vacancy</a>
+          <a class="nav-link button-white" href="${baseUrl}vacancy.html">Vacancy</a>
         </li>
       </ul>
     </div>
