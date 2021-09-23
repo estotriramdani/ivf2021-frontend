@@ -19,7 +19,7 @@
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script
-      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
       crossorigin="anonymous"
     ></script>
     <script
@@ -107,5 +107,21 @@
     <script src="js/components/home/sponsor.js"></script>
     <script src="js/components/page-header.js"></script>
     <script src="js/vacancy.js" defer></script>
+    <script>
+      const searchParams = window.location.search.substr(1).split('&');
+      const paramsObject = {
+        title: '',
+        category: '',
+      };
+      searchParams.forEach((params) => {
+        if (params.split('=')[0] === 'category') {
+          paramsObject.category = params.split('=')[1];
+        }
+        if (params.split('=')[0] === 'title') {
+          paramsObject.title = params.split('=')[1];
+        }
+      });
+      console.log(paramsObject);
+    </script>
   </body>
 </html>

@@ -14,4 +14,8 @@
 }
 .description-image {
   border-radius: 20px;
+  height: 300px;
+  width: 400px;
+  object-fit: cover;
+  transition: all 0.3;
 }

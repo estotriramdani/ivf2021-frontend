@@ -5,8 +5,7 @@
     <script>
       const headerTitle = 'JADWAL PELAKSANAAN WEBINAR SERIES';
       const activityDescription = `Presentasi perusahaan ataupun industrial insight dari perusahaan peserta IPB Virtual Fair 2021 melalui media online, dengan tujuan memberikan wawasan mengenai profil perusahaan dan jenjang karir di perusahaannya.`;
-      const activityIllustration =
-        'http://dummyimage.com/300x400.png/dddddd/000000';
+      const activityIllustration = 'img/webinar/1.png';
     </script>
     <title>IPB Virtual Fair | Webinar</title>
     <meta charset="UTF-8" />
@@ -23,7 +22,7 @@
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script
-      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
       crossorigin="anonymous"
     ></script>
     <script
@@ -80,5 +79,22 @@
     <script src="js/components/home/sponsor.js"></script>
     <script src="js/components/page-header.js"></script>
     <script src="js/webinar.js" defer></script>
+    <script>
+      let i = 2;
+      let linkToImage = '';
+      setInterval(() => {
+        linkToImage = `img/webinar/${i}.png`;
+        const imageDescription = document.querySelector('.description-image');
+        imageDescription.classList.add('opacity-50');
+        setTimeout(() => {
+          imageDescription.setAttribute('src', linkToImage);
+          imageDescription.classList.remove('opacity-50');
+        }, 300);
+        i++;
+        if (i == 3) {
+          i = 1;
+        }
+      }, 3000);
+    </script>
   </body>
 </html>

@@ -12,7 +12,7 @@ const descriptionSectionHTML = `
         <img
           src="${activityIllustration}"
           alt="ilustrasi kegiatan"
-          class="img-fluid description-image w-100"
+          class="description-image"
           data-aos="fade-left"
         />
       </div>

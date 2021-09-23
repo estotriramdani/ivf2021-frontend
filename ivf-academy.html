@@ -5,8 +5,7 @@
     <script>
       const headerTitle = 'IVF Academy';
       const activityDescription = `Serangkaian kegiatan training yang dilaksanakan untuk mempersiapkan jobseeker supaya lebih siap dalam mengikuti serangkaian seleksi kerja pada IPB Virtual Fair 2021. Materi yang akan disampaikan dalam kegiatan IVF Academy adalah serangkaian materi seleksi, dan CDA IPB bekerjasama dengan beberapa perusahaan konsultan SDM untuk menjadi narasumber serta trainer pada kegiatan tersebut.`;
-      const activityIllustration =
-        'http://dummyimage.com/300x400.png/0c8deb/ffffff';
+      const activityIllustration = 'img/ivf-academy/1.jpeg';
     </script>
     <title>IPB Virtual Fair | IVF Academy</title>
     <link rel="icon" href="favicon.png" />
@@ -23,7 +22,7 @@
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script
-      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
       crossorigin="anonymous"
     ></script>
     <script
@@ -80,5 +79,22 @@
     <script src="js/components/page-header.js"></script>
     <script src="js/components/description-section.js"></script>
     <script src="js/ivf-academy.js"></script>
+    <script>
+      let i = 2;
+      let linkToImage = '';
+      setInterval(() => {
+        linkToImage = `img/ivf-academy/${i}.jpeg`;
+        const imageDescription = document.querySelector('.description-image');
+        imageDescription.classList.add('opacity-50');
+        setTimeout(() => {
+          imageDescription.setAttribute('src', linkToImage);
+          imageDescription.classList.remove('opacity-50');
+        }, 300);
+        i++;
+        if (i == 4) {
+          i = 1;
+        }
+      }, 3000);
+    </script>
   </body>
 </html>
