@@ -3,69 +3,32 @@ AOS.init();
 const careerExpoCompanies = [
   {
     id: 1,
-    title: 'Innojam',
-    image: 'http://dummyimage.com/300x400.png/cc0000/ffffff',
-    link: 'company-detail.html',
+    title: 'PT. ASURANSI ADIRA DINAMIKA, TBK',
+    image: 'pt-asuransi-adira-dinamika-tbk.png',
+    link: 'company-detail/pt-asuransi-adira-dinamika-tbk.html',
+    width: '200',
   },
   {
     id: 2,
-    title: 'Realbuzz',
-    image: 'http://dummyimage.com/300x400.png/ff4444/ffffff',
-    link: 'company-detail.html',
-  },
-  {
-    id: 3,
-    title: 'Feedfish',
-    image: 'http://dummyimage.com/300x400.png/dddddd/000000',
-    link: 'company-detail.html',
-  },
-  {
-    id: 4,
-    title: 'Devcast',
-    image: 'http://dummyimage.com/300x400.png/ff4444/ffffff',
-    link: 'company-detail.html',
-  },
-  {
-    id: 5,
-    title: 'Edgeify',
-    image: 'http://dummyimage.com/300x400.png/ff4444/ffffff',
-    link: 'company-detail.html',
-  },
-  {
-    id: 6,
-    title: 'Oba',
-    image: 'http://dummyimage.com/300x400.png/5fa2dd/ffffff',
-    link: 'company-detail.html',
-  },
-  {
-    id: 7,
-    title: 'Rhynyx',
-    image: 'http://dummyimage.com/300x400.png/dddddd/000000',
-    link: 'company-detail.html',
-  },
-  {
-    id: 8,
-    title: 'Miboo',
-    image: 'http://dummyimage.com/300x400.png/ff4444/ffffff',
-    link: 'company-detail.html',
-  },
-  {
-    id: 9,
-    title: 'Centimia',
-    image: 'http://dummyimage.com/300x400.png/dddddd/000000',
-    link: 'company-detail.html',
-  },
-  {
-    id: 10,
-    title: 'Roombo',
-    image: 'http://dummyimage.com/300x400.png/cc0000/ffffff',
-    link: 'company-detail.html',
+    title: 'PT. Malindo Feedmill, Tbk',
+    image: 'pt-malindo-feedmill-tbk.png',
+    link: 'company-detail/pt-malindo-feedmill-tbk.html',
+    width: '200',
   },
 ];
 
+careerExpoCompanies.sort((a, b) =>
+  a.width < b.width ? 1 : b.width < a.width ? -1 : 0
+);
+
 let careerExpo = '';
 careerExpoCompanies.forEach((career) => {
-  careerExpo += companyCardGenerator(career.title, career.link, career.image);
+  careerExpo += companyCardGenerator(
+    career.title,
+    career.link,
+    career.image,
+    career.width
+  );
 });
 
 document.getElementById('company-card-wrapper').innerHTML = careerExpo;

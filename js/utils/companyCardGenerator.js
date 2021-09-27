@@ -1,10 +1,10 @@
-function companyCardGenerator(title, link, image) {
+function companyCardGenerator(title, link, image, width) {
   return `
-  <div class="col-md-4 col-lg-2 col-sm-6 p-2" data-aos="fade-up">
-    <a href="${link}" class="company-card shadow-sm" style="display: block; overflow: hidden;">
+  <div class="p-2" data-aos="fade-up" style="width: ${width || '300'}px;">
+    <a href="${link}" class="company-card shadow" style="display: block; overflow: hidden; border: 2px solid #000; padding: 5px;">
       <div class="company-card-img">
         <img
-          src="${image}"
+          src="img/logo/${image}"
           alt="${title}"
         />
       </div>

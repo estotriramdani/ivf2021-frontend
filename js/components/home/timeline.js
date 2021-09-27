@@ -8,8 +8,7 @@ const timelineHeadingHTML = `
   <div class="col-md-6">
     <p class="text-center">
       Untuk mewujudkan misi tersebut, CDA IPB menyelenggarakan IPB
-      Virtual Fair 2021 yang dikolaborasikan dengan National Virtual
-      Career Hack, dengan rangkaian kegiatan sebagai berikut
+      Virtual Fair 2021 dengan rangkaian kegiatan sebagai berikut
     </p>
   </div>
 </div>
@@ -47,7 +46,7 @@ const timelineData = [
   {
     id: 3,
     date: '16-20 Oktober 2021',
-    name: 'Webinarseries',
+    name: 'Webinar Series',
   },
   {
     id: 4,
