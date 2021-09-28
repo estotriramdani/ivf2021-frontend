@@ -20,6 +20,40 @@ const vacancies = [
       },
     ],
   },
+  {
+    id: 2,
+    name: 'PT Indofood CBP Sukses Makmur,Tbk-Noodle Division',
+    logo: 'pt-indofood-cbp-sukses-makmur-tbk-noodle-division.png',
+    link: 'company-detail/pt-indofood-cbp-sukses-makmur-tbk-noodle-division.html',
+    address: 'Kota Administrasi Jakarta Utara , DKI Jakarta',
+    vacancies: [
+      {
+        id: 1,
+        position: 'MT Accounting',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4346/mt-accounting',
+      },
+      {
+        id: 2,
+        position: 'MT PPIC',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4345/mt-ppic',
+      },
+      {
+        id: 3,
+        position: 'MT Produksi dan Teknik',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4344/mt-produksi-dan-teknik',
+      },
+      {
+        id: 4,
+        position: 'MT Research and Development',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4343/mt-research-development',
+      },
+      {
+        id: 5,
+        position: 'MT Quality Control (QC)',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4342/mt-quality-control-qc',
+      },
+    ],
+  },
 ];
 
 const vacancyListGenerator = (vacancies) => {

@@ -6,7 +6,7 @@ const firstDay = [
     time: '13.00-15.00 WIB',
     title: 'Cara Memperoleh Kerja, Seluk Beluk Dunia Kerja',
     company: 'Sekolah Karir 1',
-    link: '',
+    link: 'https://cda.ipb.ac.id/eventlist/site/view/34',
   },
 ];
 
@@ -16,14 +16,14 @@ const secondDay = [
     time: '13.00-15.00 WIB',
     title: 'Personal Branding melalui CV dan Media Sosial',
     company: 'Top Karir',
-    link: '',
+    link: 'https://cda.ipb.ac.id/eventlist/site/view/33',
   },
   {
     id: 2,
     time: '19.00-21.00 WIB',
     title: 'Pengenalan Diri dan Assessment Minat Karir',
     company: 'Vooya',
-    link: '',
+    link: 'https://cda.ipb.ac.id/eventlist/site/view/32',
   },
 ];
 
