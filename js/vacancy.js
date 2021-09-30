@@ -91,7 +91,9 @@ const companyVacancyGenerator = (vacancies) => `
     </p>
   </div>
   <div class="col-sm-2 col-md-3">
-    <a href="${vacancies.link}" class="button button-blue"
+    <a href="${
+      vacancies.link
+    }" class="button button-blue" onclick="loadingLink(this)"
       >DETAIL PERUSAHAAN</a
     >
   </div>
