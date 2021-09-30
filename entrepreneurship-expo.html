@@ -34,6 +34,20 @@
     <link rel="stylesheet" href="vendor/slick/slick.css" />
   </head>
   <body class="position-relative">
+    <div id="preloader">
+      <div
+        class="spinner-border text-light"
+        role="status"
+        style="width: 3rem; height: 3rem"
+      >
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <img
+        src="https://cda.ipb.ac.id/themes/carcentos_theme_v2/images/resource/logo-ipb.png"
+        alt=""
+        width="200"
+      />
+    </div>
     <section id="navbar" class="sticky-top"></section>
     <section id="page-header">
       <!-- rendered by JS -->
@@ -58,5 +72,11 @@
     <script src="js/components/home/sponsor.js"></script>
     <script src="js/components/page-header.js"></script>
     <script src="js/entrepreneurship-expo.js" defer></script>
+    <script>
+      setTimeout(() => {
+        document.getElementById('preloader').style.transform =
+          'translateY(-100%)';
+      }, 1000);
+    </script>
   </body>
 </html>

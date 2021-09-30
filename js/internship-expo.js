@@ -3,9 +3,9 @@ AOS.init();
 const expoCompanies = [
   {
     id: 1,
-    title: 'No Data',
-    image: 'no-data',
-    link: '#',
+    title: 'AIESEC',
+    image: 'aiesec.jpg',
+    link: 'company-detail/aiesec.html',
     width: '200',
   },
 ];
