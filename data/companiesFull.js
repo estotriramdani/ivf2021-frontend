@@ -146,4 +146,11 @@ const companiesFull = [
     link: 'company-detail/grow-ducth-universities-representative.html',
     width: '200',
   },
+  {
+    id: 5,
+    title: 'Tambah Baru',
+    image: 'tambah-baru.jpg',
+    link: 'company-detail/tambah-baru.html',
+    width: '100',
+  },
 ];
