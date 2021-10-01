@@ -1,5 +1,28 @@
 AOS.init();
 
+const days = [
+  {
+    id: 0,
+    day: 'Senin, 15 November 2021',
+  },
+  {
+    id: 1,
+    day: 'Selasa, 16 November 2021',
+  },
+  {
+    id: 2,
+    day: 'Rabu, 17 November 2021',
+  },
+  {
+    id: 3,
+    day: 'Kamis, 18 November 2021',
+  },
+  {
+    id: 4,
+    day: 'Jumat, 19 November 2021',
+  },
+];
+
 const firstDay = [
   {
     id: 1,
@@ -117,29 +140,6 @@ const fifthDay = [
     title: 'Cold Fish (Tsumetai nettaigyo)',
     company: 'Lazz',
     link: 'http://google.fr/justo.jpg?laoreet=curae&ut=donec&rhoncus=pharetra&aliquet=magna',
-  },
-];
-
-const days = [
-  {
-    id: 0,
-    day: 'Senin, 15 November 2021',
-  },
-  {
-    id: 1,
-    day: 'Selasa, 16 November 2021',
-  },
-  {
-    id: 2,
-    day: 'Rabu, 17 November 2021',
-  },
-  {
-    id: 3,
-    day: 'Kamis, 18 November 2021',
-  },
-  {
-    id: 4,
-    day: 'Jumat, 19 November 2021',
   },
 ];
 

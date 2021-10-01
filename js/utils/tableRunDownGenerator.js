@@ -26,7 +26,7 @@ function trGenerator(time, title, company, link) {
                       </td>
                       <td>${company}</td>
                       <td>
-                        <a href="${link}" class="button button-blue">Daftar</a>
+                        <a href="${link}" class="button button-blue" target="_blank">Daftar</a>
                       </td>
                     </tr>`;
 }

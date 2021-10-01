@@ -32,21 +32,25 @@ const footer = `
             <div class="d-flex justify-content-between d-lg-inline-block">
               <a
                 class="text-white decoration-none fs-1"
+                target="_blank"
                 href="https://www.facebook.com/cdaipb"
                 ><i class="bi bi-facebook"></i
               ></a>
               <a
                 class="text-white decoration-none fs-1"
+                target="_blank"
                 href="https://www.linkedin.com/in/cda-ipb-25345a118/"
                 ><i class="bi bi-linkedin"></i
               ></a>
               <a
                 class="text-white decoration-none fs-1"
+                target="_blank"
                 href="http://twitter.com/CDA_IPB"
                 ><i class="bi bi-twitter"></i
               ></a>
               <a
                 class="text-white decoration-none fs-1"
+                target="_blank"
                 href="https://www.instagram.com/cda_ipb/"
                 ><i class="bi bi-instagram"></i
               ></a>

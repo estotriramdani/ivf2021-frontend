@@ -1,5 +1,28 @@
 AOS.init();
 
+const days = [
+  {
+    id: 0,
+    day: 'Senin, 4 Oktober 2021',
+  },
+  {
+    id: 1,
+    day: 'Jumat, 8 Oktober 2021',
+  },
+  {
+    id: 2,
+    day: 'Senin, 11 Oktober 2021',
+  },
+  {
+    id: 3,
+    day: 'Sabtu, 16 Oktober 2021',
+  },
+  {
+    id: 4,
+    day: 'Senin, 18 Oktober 2021',
+  },
+];
+
 const firstDay = [
   {
     id: 1,
@@ -54,29 +77,6 @@ const fifthDay = [
     title: 'Peluang Karir Agrobisnis di Multinasional Companies',
     company: '3C Virtual Human Capital',
     link: '',
-  },
-];
-
-const days = [
-  {
-    id: 0,
-    day: 'Senin, 4 Oktober 2021',
-  },
-  {
-    id: 1,
-    day: 'Jumat, 8 Oktober 2021',
-  },
-  {
-    id: 2,
-    day: 'Senin, 11 Oktober 2021',
-  },
-  {
-    id: 3,
-    day: 'Sabtu, 16 Oktober 2021',
-  },
-  {
-    id: 4,
-    day: 'Senin, 18 Oktober 2021',
   },
 ];
 
