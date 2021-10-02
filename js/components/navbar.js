@@ -1,5 +1,5 @@
-// const baseUrl = 'https://ivf2021-frontend.vercel.app/';
-const baseUrl = 'http://localhost:5500/';
+const baseUrl = 'https://ivf2021-frontend.vercel.app/';
+// const baseUrl = 'http://localhost:5500/';
 
 const navbarHTML = `
 <nav class="navbar navbar-expand-lg navbar-dark bg-blue">
