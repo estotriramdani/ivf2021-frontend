@@ -29,4 +29,4 @@ const sponsorHTML = `
 </div>
 `;
 
-document.querySelector('.sponsor-image').innerHTML = sponsorHTML;
+// document.querySelector('.sponsor-image').innerHTML = sponsorHTML;
