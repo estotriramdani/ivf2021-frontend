@@ -17,7 +17,14 @@
     padding-bottom: 30px;
   }
 }
-
+@media (min-width: 768px) {
+  .dropdown-item-nav {
+    width: 200px !important;
+  }
+  .dropdown-menu {
+    width: 200px !important;
+  }
+}
 #sponsor-section {
   margin-top: 80px;
   width: 100%;
@@ -53,4 +60,19 @@
   border-radius: 999;
   display: inline-block;
   padding: 10px;
+}
+
+#preloader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: #0c8deb;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  transition: all 0.5s;
+  top: 0;
+  left: 0;
 }

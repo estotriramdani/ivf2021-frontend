@@ -45,10 +45,10 @@ const navbarHTML = `
             aria-labelledby="navbarDropdown"
             style="margin: auto"
           >
-            <li><a onclick="loadingLink(this)" class="dropdown-item" href="${baseUrl}career-expo.html">Career Expo</a></li>
-            <li><a onclick="loadingLink(this)" class="dropdown-item" href="${baseUrl}internship-expo.html">Internship Expo</a></li>
-            <li><a onclick="loadingLink(this)" class="dropdown-item" href="${baseUrl}scholarship-expo.html">Scholarship Expo</a></li>
-            <li><a onclick="loadingLink(this)" class="dropdown-item" href="${baseUrl}entrepreneurship-expo.html">Entre. Expo</a></li>
+            <li><a onclick="loadingLink(this)" class="dropdown-item dropdown-item-nav" href="${baseUrl}career-expo.html">Career Expo</a></li>
+            <li><a onclick="loadingLink(this)" class="dropdown-item dropdown-item-nav" href="${baseUrl}internship-expo.html">Internship Expo</a></li>
+            <li><a onclick="loadingLink(this)" class="dropdown-item dropdown-item-nav" href="${baseUrl}scholarship-expo.html">Scholarship Expo</a></li>
+            <li><a onclick="loadingLink(this)" class="dropdown-item dropdown-item-nav" href="${baseUrl}entrepreneurship-expo.html">Entrepreneurship Expo</a></li>
           </ul>
         </li>
         <li class="nav-item p-lg-1 mb-2 mb-lg-0">
