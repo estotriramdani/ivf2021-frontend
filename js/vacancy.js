@@ -3,6 +3,30 @@ AOS.init();
 const vacancies = [
   {
     id: 1,
+    name: 'PT Elevenia Digital Teknologi Sukses',
+    logo: 'pt-elevenia-digital-teknologi-sukses.jpg',
+    link: 'company-detail/pt-elevenia-digital-teknologi-sukses.html',
+    address: 'Kota Administrasi Jakarta Pusat , DKI Jakarta',
+    vacancies: [
+      {
+        id: 1,
+        position: 'Technology Development Program',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4350/technology-development-program',
+      },
+      {
+        id: 2,
+        position: 'Data Development Program-Data Science and Analytics',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4348/data-development-program-data-science-and-analytics',
+      },
+      {
+        id: 3,
+        position: 'Data Development Program-Data Engineer',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4349/data-development-program-data-engineer',
+      },
+    ],
+  },
+  {
+    id: 2,
     name: 'PT. ASURANSI ADIRA DINAMIKA, TBK',
     logo: 'pt-asuransi-adira-dinamika-tbk.png',
     link: 'company-detail/pt-asuransi-adira-dinamika-tbk.html',
@@ -13,15 +37,10 @@ const vacancies = [
         position: 'Next Talent of Zurich ANTZ',
         link: 'https://cda.ipb.ac.id/vacancy/site/view/4338/next-talent-of-zurich-antz',
       },
-      {
-        id: 2,
-        position: 'Management Trainee (MT)',
-        link: 'https://cda.ipb.ac.id/vacancy/site/view/1686/management-trainee-mt',
-      },
     ],
   },
   {
-    id: 2,
+    id: 3,
     name: 'PT Indofood CBP Sukses Makmur,Tbk-Noodle Division',
     logo: 'pt-indofood-cbp-sukses-makmur-tbk-noodle-division.png',
     link: 'company-detail/pt-indofood-cbp-sukses-makmur-tbk-noodle-division.html',
