@@ -22,18 +22,18 @@ const careerExpo = [
   },
   {
     id: 4,
-    title: 'PT ELEVENIA DIGITAL TEKNOLOKI SUKSES',
+    title: 'PT Elevenia Digital Teknologi Sukses',
     image: 'pt-elevenia-digital-teknologi-sukses.jpg',
     link: 'company-detail/pt-elevenia-digital-teknologi-sukses.html',
     width: '300',
   },
-  {
+  /*{
     id: 6,
     title: 'PT Bumi Rasa Pangan Utama',
     image: 'pt-bumi-rasa-pangan-utama.png',
     link: 'company-detail/pt-bumi-rasa-pangan-utama.html',
     width: '200',
-  },
+  },*/
   {
     id: 6,
     title: 'Coca-Cola Europacific Partners Indonesia (CCEP Indonesia)',
@@ -57,53 +57,54 @@ const careerExpo = [
   },
   {
     id: 9,
-    title: 'PT. GMZ BIOMEGA UTAMA',
+    title: 'PT. GMZ Biomega Utama',
     image: 'pt-gmz-biomega-utama.png',
     link: 'company-detail/pt-gmz-biomega-utama.html',
     width: '200',
   },
   {
-    id: 9,
-    title: 'PT. GMZ BIOMEGA UTAMA',
-    image: 'pt-gmz-biomega-utama.png',
-    link: 'company-detail/pt-gmz-biomega-utama.html',
+    id:10,
+    title: 'PT Web Media Technology Indonesia (Niagahoster)',
+    image: 'niagahoster.jpeg',
+    link: 'company-detail/niagahoster.html',
     width: '200',
   },
+  
 ];
 
 const scholarExpo = [
   {
     id: 1,
     title: 'PPM School of Management',
-    image: 'ppm-school-of-management.jpg',
+    image: 'ppm-school-of-management.jpeg',
     link: 'company-detail/ppm-school-of-management.html',
     width: '200',
   },
   {
     id: 2,
     title: 'Universitas Mercu Buana Jakarta',
-    image: 'universitas-mercu-buana-jakarta.jpg',
+    image: 'universitas-mercu-buana-jakarta.jpeg',
     link: 'company-detail/universitas-mercu-buana-jakarta.html',
     width: '200',
   },
   {
     id: 3,
     title: 'Erasmus',
-    image: 'erasmus.jpg',
+    image: 'erasmus.jpeg',
     link: 'company-detail/erasmus.html',
     width: '200',
   },
   {
     id: 4,
     title: 'Leiden University',
-    image: 'leiden-unversity.jpg',
+    image: 'leiden-unversity.png',
     link: 'company-detail/leiden-unversity.html',
     width: '200',
   },
   {
     id: 5,
     title: 'GROW Dutch Universities Representative (Study in Holland)',
-    image: 'grow-ducth-universities-representative.jpg',
+    image: 'grow-ducth-universities-representative.png',
     link: 'company-detail/grow-ducth-universities-representative.html',
     width: '200',
   },
@@ -113,7 +114,7 @@ const internExpo = [
   {
     id: 1,
     title: 'AIESEC',
-    image: 'aiesec.jpg',
+    image: 'aiesec.png',
     link: 'company-detail/aiesec.html',
     width: '200',
   },
@@ -123,48 +124,152 @@ const entreExpo = [
   {
     id: 1,
     title: 'Mentai Skuyy',
-    image: 'mentai-skuyy.jpg',
+    image: 'mentai-skuyy.png',
     link: 'company-detail/mentai-skuyy.html',
     width: '200',
   },
   {
     id: 1,
+    title: 'Bakso Ikan Mas Joglir',
+    image: 'bakso-ikan-mas-joglir.png',
+    link: 'company-detail/bakso-ikan-mas-joglir.html',
+    width: '200',
+  },
+  {
+    id: 1,
     title: 'Tayos Fresh',
-    image: 'tayos-fresh.jpg',
+    image: 'tayos-fresh.png',
     link: 'company-detail/tayos-fresh.html',
     width: '200',
   },
   {
     id: 1,
+    title: 'Sekar Batik Collection',
+    image: 'sekar-batik-collection.png',
+    link: 'company-detail/sekar-batik-collection.html',
+    width: '200',
+  },
+  {
+    id: 1,
     title: 'Vifara.co',
-    image: 'vifara-co.jpg',
+    image: 'vifara-co.jpeg',
     link: 'company-detail/vifara-co.html',
     width: '200',
   },
   {
     id: 1,
     title: 'Hi-Moon',
-    image: 'hi-moon.jpg',
+    image: 'hi-moon.png',
     link: 'company-detail/hi-moon.html',
     width: '200',
   },
   {
     id: 1,
     title: 'Gizimate',
-    image: 'gizimate.jpg',
+    image: 'gizimate.png',
     link: 'company-detail/gizimate.html',
     width: '200',
   },
+  {
+    id: 1,
+    title: 'Tebengin.com',
+    image: 'tebengin.png',
+    link: 'company-detail/tebengin.html',
+    width: '200',
+  },
+  {
+    id: 1,
+    title: 'GurzaTrek',
+    image: 'gurzatrek.png',
+    link: 'company-detail/gurzatrek.html',
+    width: '200',
+  },
+  {
+    id: 1,
+    title: 'Great Lee',
+    image: 'great-lee.jpeg',
+    link: 'company-detail/great-lee.html',
+    width: '200',
+  },
+  /*{
+    id: 1,
+    title: 'Nirmala Florist',
+    image: 'nirmala-florist.png',
+    link: 'company-detail/nirmala-florist.html',
+    width: '200',
+  },
+  {
+    id: 1,
+    title: 'HALOAKU',
+    image: 'haloaku.png',
+    link: 'company-detail/haloaku.html',
+    width: '200',
+  },*/
+  {
+    id: 1,
+    title: 'Martabak Bosque 10000',
+    image: 'martabak-bosque.png',
+    link: 'company-detail/martabak-bosque.html',
+    width: '200',
+  },
+  {
+    id: 1,
+    title: 'Madu Akasia',
+    image: 'madu-akasia.jpg',
+    link: 'company-detail/madu-akasia.html',
+    width: '200',
+  },
+  {
+    id: 1,
+    title: 'Dwell Id',
+    image: 'dwell-id.jpg',
+    link: 'company-detail/dwell-id.html',
+    width: '200',
+  },
+  {
+    id: 1,
+    title: 'Moring Mojang',
+    image: 'moring-mojang.png',
+    link: 'company-detail/moring-mojang.html',
+    width: '200',
+  },
+  {
+    id: 1,
+    title: 'Objek Wisata Pongol Island Waduk Simo',
+    image: 'apic.png',
+    link: 'company-detail/objek-wisata-pongol-island-waduk-simo.html',
+    width: '200',
+  },
+  {
+    id: 1,
+    title: 'Pupuk Bokashi',
+    image: 'pupuk-bokashi.png',
+    link: 'company-detail/pupuk-bokashi.html',
+    width: '200',
+  },
+  {
+    id: 1,
+    title: 'Beri.katan',
+    image: 'beri-katan.png',
+    link: 'company-detail/beri-katan-flower-and-giftshop.html',
+    width: '200',
+  },
+  {
+    id: 1,
+    title: 'Muarna Indonesia',
+    image: '',
+    link: 'company-detail/muarna-indonesia.html',
+    width: '200',
+  },
+  /*{
+    id: 1,
+    title: '',
+    image: '',
+    link: '',
+    width: '200',
+  },
+  
+  
+  
+   */
 ];
-
-const script = document.createElement('script');
-script.src = 'https://www.googletagmanager.com/gtag/js?id=UA-49614634-1';
-script.async = true;
-document.body.appendChild = script;
-window.dataLayer = window.dataLayer || [];
-function gtag() {
-  dataLayer.push(arguments);
-}
-gtag('js', new Date());
-
-gtag('config', 'UA-49614634-1');
