@@ -56,7 +56,7 @@ const thirdDay = [
     time: '19.00-21.00 WIB',
     title: 'Interview and Grooming',
     company: 'Sekolah Karir 2',
-    link: '',
+    link: 'https://cda.ipb.ac.id/eventlist/site/view/36',
   },
 ];
 
@@ -66,7 +66,7 @@ const fourthDay = [
     time: '13.00-15.00 WIB',
     title: 'Employee Experience',
     company: 'SVB Academy',
-    link: '',
+    link: 'https://cda.ipb.ac.id/eventlist/site/view/37',
   },
 ];
 
@@ -76,7 +76,7 @@ const fifthDay = [
     time: '19.00 -21.00 WIB',
     title: 'Peluang Karir Agrobisnis di Multinasional Companies',
     company: '3C Virtual Human Capital',
-    link: '',
+    link: 'https://cda.ipb.ac.id/eventlist/site/view/38',
   },
 ];
 

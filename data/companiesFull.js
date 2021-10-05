@@ -27,13 +27,6 @@ const companiesFull = [
     link: 'company-detail/pt-elevenia-digital-teknologi-sukses.html',
     width: '300',
   },
-  /*{
-    id: 6,
-    title: 'PT Bumi Rasa Pangan Utama',
-    image: 'pt-bumi-rasa-pangan-utama.png',
-    link: 'company-detail/pt-bumi-rasa-pangan-utama.html',
-    width: '200',
-  }*/,
   {
     id: 6,
     title: 'Coca-Cola Europacific Partners Indonesia (CCEP Indonesia)',
