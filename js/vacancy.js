@@ -73,6 +73,35 @@ const vacancies = [
       },
     ],
   },
+  {
+    id: 4,
+    name: 'PT Wijayaputra Adiperkasa',
+    logo: 'pt-wijayaputra-adiperkasa.jpg',
+    link: 'company-detail/pt-wijayaputra-adiperkasa.html',
+    address: 'Kota Administrasi Jakarta Selatan , DKI Jakarta',
+    vacancies: [
+      {
+        id: 1,
+        position: 'Sales Support / Sales Admin',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4364/sales-support--sales-admin',
+      },
+      {
+        id: 2,
+        position: 'Accounting Staff',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4363/accounting-staff',
+      },
+      {
+        id: 3,
+        position: 'R&D Staff',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4362/r-d-staff',
+      },
+      {
+        id: 4,
+        position: 'Technical Service & Marketing Support Staff',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4361/technical-service--marketing-support-staff',
+      },
+    ],
+  },
 ];
 
 const vacancyListGenerator = (vacancies) => {

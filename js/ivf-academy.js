@@ -46,7 +46,7 @@ const secondDay = [
     time: '19.00-21.00 WIB',
     title: 'Pengenalan Diri dan Assessment Minat Karir',
     company: 'Vooya',
-    link: 'https://cda.ipb.ac.id/eventlist/site/view/32',
+    link: 'https://cda.ipb.ac.id/eventlist/site/view/35',
   },
 ];
 
