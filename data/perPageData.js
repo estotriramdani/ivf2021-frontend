@@ -141,6 +141,13 @@ const entreExpo = [
   },
   {
     id: 1,
+    title: 'Dwell Id',
+    image: 'dwell-id.jpg',
+    link: 'company-detail/dwell-id.html',
+    width: '200',
+  },
+  {
+    id: 1,
     title: 'Bakso Ikan Mas Joglir',
     image: 'bakso-ikan-mas-joglir.png',
     link: 'company-detail/bakso-ikan-mas-joglir.html',
@@ -230,13 +237,7 @@ const entreExpo = [
     link: 'company-detail/madu-akasia.html',
     width: '200',
   },
-  {
-    id: 1,
-    title: 'Dwell Id',
-    image: 'dwell-id.jpg',
-    link: 'company-detail/dwell-id.html',
-    width: '200',
-  },
+  
   {
     id: 1,
     title: 'Moring Mojang',
