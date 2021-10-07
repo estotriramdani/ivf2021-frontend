@@ -43,7 +43,7 @@ const firstDay = [
     time: '13.30 - 14.30',
     title: 'Start Data Career with EDTS',
     company: 'PT. Elevenia Digital Teknologi Sukses',
-    link: '',
+    link: '#',
   },
 ];
 
