@@ -27,9 +27,9 @@ const firstDay = [
   {
     id: 1,
     time: '9.30 - 10.30',
-    title: "",
-    company: '',
-    link: '',
+    title: "Handling Emotion and Pressure at Work: Managing Yourself as a Professional",
+    company: 'Coca-Cola Europacific Partners Indonesia (CCEP Indonesia)',
+    link: '#',
   },
   {
     id: 2,
@@ -59,8 +59,8 @@ const secondDay = [
     id: 2,
     time: '11.00 - 12.00',
     title: '',
-    company: '',
-    link: '',
+    company: 'PT Web Media Technology Indonesia (Niagahoster)',
+    link: '#',
   },
   {
     id: 3,
@@ -77,7 +77,7 @@ const thirdDay = [
     time: '9.30 - 10.30',
     title: "Info session Scholarship MM di PPM School of Management",
     company: 'PPM School of Management',
-    link: '',
+    link: '#',
   },
   {
     id: 2,
@@ -89,9 +89,9 @@ const thirdDay = [
   {
     id: 3,
     time: '13.30 - 14.30',
-    title: '',
-    company: '',
-    link: '',
+    title: 'Study and Scholarship Opportunities in the Netherlands',
+    company: 'Nuffic Neso Indonesia',
+    link: '#',
   },
 ];
 
@@ -107,15 +107,15 @@ const fourthDay = [
     id: 2,
     time: '11.00 - 12.00',
     title: '',
-    company: '',
-    link: '',
+    company: 'LPDP',
+    link: '#',
   },
   {
     id: 3,
     time: '13.30 - 14.30',
     title: 'Presentasi Perusahaan dan Seminar Online',
     company: 'PT. Malindo Feedmill, Tbk',
-    link: '',
+    link: '#',
   },
 ];
 
@@ -138,8 +138,8 @@ const fifthDay = [
     id: 3,
     time: '13.30 - 14.30',
     title: '',
-    company: '',
-    link: '',
+    company: 'GROW Dutch',
+    link: '#',
   },
 ];
 

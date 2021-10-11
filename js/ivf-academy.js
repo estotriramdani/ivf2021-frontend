@@ -21,6 +21,14 @@ const days = [
     id: 4,
     day: 'Senin, 18 Oktober 2021',
   },
+  {
+    id: 5,
+    day: 'Kamis, 21 Oktober 2021',
+  },
+  {
+    id: 6,
+    day: 'Jumat, 22 Oktober 2021',
+  },
 ];
 
 const firstDay = [
@@ -77,6 +85,24 @@ const fifthDay = [
     title: 'Peluang Karir Agrobisnis di Multinasional Companies',
     company: '3C Virtual Human Capital',
     link: 'https://cda.ipb.ac.id/eventlist/site/view/38',
+  },
+];
+const sixthDay = [
+  {
+    id: 1,
+    time: '19.15 -21.00 WIB',
+    title: 'Praktik & Penguatan',
+    company: 'CDA IPB',
+    link: '#',
+  },
+];
+const seventhDay = [
+  {
+    id: 1,
+    time: '19.15 -21.00 WIB',
+    title: 'Praktik & Penguatan',
+    company: 'CDA IPB',
+    link: '#',
   },
 ];
 

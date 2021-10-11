@@ -102,6 +102,25 @@ const vacancies = [
       },
     ],
   },
+  {
+    id: 5,
+    name: 'PT. GMZ Biomega Utama',
+    image: 'pt-gmz-biomega-utama.png',
+    link: 'company-detail/pt-gmz-biomega-utama.html',
+    address: 'Kota Palembang , Sumatera Selatan',
+    vacancies: [
+      {
+        id: 1,
+        position: 'Senior Laboratorium Kultur Jaringan',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4326/senior-laboratorium-kultur-jaringan',
+      },
+      {
+        id: 2,
+        position: 'Staff Laboratorium Kultur Jaringan',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4327/staff-laboratorium-kultur-jaringan',
+      },
+    ],
+  },
 ];
 
 const vacancyListGenerator = (vacancies) => {
