@@ -105,7 +105,7 @@ const vacancies = [
   {
     id: 5,
     name: 'PT. GMZ Biomega Utama',
-    image: 'pt-gmz-biomega-utama.png',
+    logo: 'pt-gmz-biomega-utama.png',
     link: 'company-detail/pt-gmz-biomega-utama.html',
     address: 'Kota Palembang , Sumatera Selatan',
     vacancies: [
