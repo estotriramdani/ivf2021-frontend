@@ -29,11 +29,15 @@ async function sendData() {
       body: formdata,
       redirect: 'follow',
     };
-
-    fetch('http://localhost/ivf-analytics/api/save-data.php', requestOptions)
-      .then((response) => response.json())
-      .then((result) => console.log(result))
-      .catch((error) => console.log('error', error));
+    setTimeout(() => {
+      fetch(
+        'https://esto.my.id/ivf-analytics/api/save-data.php',
+        requestOptions
+      )
+        .then((response) => response.json())
+        .then((result) => console.log(result))
+        .catch((error) => console.log('error', error));
+    }, 2000);
   } catch (error) {
     console.log(error);
   }
