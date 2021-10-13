@@ -80,6 +80,34 @@ const careerExpo = [
     link: 'company-detail/pt-wijayaputra-adiperkasa.html',
     width: '200',
   },
+  {
+    id:12,
+    title: 'PT. Inspirasi Masuk Kampus',
+    image: 'pt-inspirasi-masuk-kampus.jpeg',
+    link: 'company-detail/pt-inspirasi-masuk-kampus.html',
+    width: '200',
+  },
+  {
+    id:13,
+    title: 'PT. Great Giant Pineapple (Great Giant Foods)',
+    image: 'pt-great-giant-pineapple.png',
+    link: 'company-detail/pt-great-giant-pineapple.html',
+    width: '200',
+  },
+  {
+    id:14,
+    title: 'PT Kasen Indonesia',
+    image: 'pt-kasen-indonesia.png',
+    link: 'company-detail/pt-kasen-indonesia.html',
+    width: '200',
+  },
+  /*{
+    id:,
+    title: '',
+    image: '',
+    link: 'company-detail/',
+    width: '200',
+  },*/
   
 ];
 
@@ -117,6 +145,27 @@ const scholarExpo = [
     title: 'GROW Dutch Universities Representative (Study in Holland)',
     image: 'grow-ducth-universities-representative.png',
     link: '#',//link: 'company-detail/grow-ducth-universities-representative.html',
+    width: '200',
+  },
+  {
+    id:6,
+    title: 'University of Groningen',
+    image: 'grow-groningen.png',
+    
+    width: '200',
+  },
+  {
+    id:7,
+    title: 'Wageningen University',
+    image: 'grow-wageningen.png',
+   
+    width: '200',
+  },
+  {
+    id:8,
+    title: 'Nuffic Neso',
+    image: 'nuffic-neso.png',
+    link: 'company-detail/nuffic-neso.html',
     width: '200',
   },
 ];
