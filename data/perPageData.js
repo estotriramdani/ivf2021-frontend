@@ -39,7 +39,7 @@ const careerExpo = [
     title: 'Coca-Cola Europacific Partners Indonesia (CCEP Indonesia)',
     image: 'coca-cola-europacific-partners-indonesia.png',
     link: 'company-detail/coca-cola-europacific-partners-indonesia.html',
-    link: '#',
+
     width: '300',
   },
   {
@@ -54,7 +54,7 @@ const careerExpo = [
     title: 'PT Sanghiang Perkasa (Kalbe Nutritionals)',
     image: 'pt-sanghiang-perkata-kalbe-nutritionals.png',
     link: 'company-detail/pt-sanghiang-perkata-kalbe-nutritionals.html',
-    link: '#',
+
     width: '200',
   },
   {
@@ -62,40 +62,38 @@ const careerExpo = [
     title: 'PT. GMZ Biomega Utama',
     image: 'pt-gmz-biomega-utama.png',
     link: 'company-detail/pt-gmz-biomega-utama.html',
-    link: '#',
     width: '200',
   },
   {
-    id:10,
+    id: 10,
     title: 'PT Web Media Technology Indonesia (Niagahoster)',
     image: 'niagahoster.jpeg',
     link: 'company-detail/niagahoster.html',
-    link: '#',
     width: '200',
   },
   {
-    id:11,
+    id: 11,
     title: 'PT Wijayaputra Adiperkasa',
     image: 'pt-wijayaputra-adiperkasa.jpg',
     link: 'company-detail/pt-wijayaputra-adiperkasa.html',
     width: '200',
   },
   {
-    id:12,
+    id: 12,
     title: 'PT. Inspirasi Masuk Kampus',
     image: 'pt-inspirasi-masuk-kampus.jpeg',
     link: 'company-detail/pt-inspirasi-masuk-kampus.html',
     width: '200',
   },
   {
-    id:13,
+    id: 13,
     title: 'PT. Great Giant Pineapple (Great Giant Foods)',
     image: 'pt-great-giant-pineapple.png',
     link: 'company-detail/pt-great-giant-pineapple.html',
     width: '200',
   },
   {
-    id:14,
+    id: 14,
     title: 'PT Kasen Indonesia',
     image: 'pt-kasen-indonesia.png',
     link: 'company-detail/pt-kasen-indonesia.html',
@@ -108,7 +106,6 @@ const careerExpo = [
     link: 'company-detail/',
     width: '200',
   },*/
-  
 ];
 
 const scholarExpo = [
@@ -130,39 +127,40 @@ const scholarExpo = [
     id: 3,
     title: 'Erasmus',
     image: 'erasmus.jpeg',
-    link: '#',//link: 'company-detail/erasmus.html',
+    //link: 'company-detail/erasmus.html',
+    link: '#',
     width: '200',
   },
   {
     id: 4,
     title: 'Leiden University',
     image: 'leiden-unversity.png',
-    link: '#',//link: 'company-detail/leiden-unversity.html',
+    link: '#', //link: 'company-detail/leiden-unversity.html',
     width: '200',
   },
   {
     id: 5,
     title: 'GROW Dutch Universities Representative (Study in Holland)',
     image: 'grow-ducth-universities-representative.png',
-    link: '#',//link: 'company-detail/grow-ducth-universities-representative.html',
+    link: '#', //link: 'company-detail/grow-ducth-universities-representative.html',
     width: '200',
   },
   {
-    id:6,
+    id: 6,
     title: 'University of Groningen',
     image: 'grow-groningen.png',
-    
+
     width: '200',
   },
   {
-    id:7,
+    id: 7,
     title: 'Wageningen University',
     image: 'grow-wageningen.png',
-   
+
     width: '200',
   },
   {
-    id:8,
+    id: 8,
     title: 'Nuffic Neso',
     image: 'nuffic-neso.png',
     link: 'company-detail/nuffic-neso.html',
@@ -175,7 +173,7 @@ const internExpo = [
     id: 1,
     title: 'AIESEC',
     image: 'aiesec.png',
-    link: '#',//link: 'company-detail/aiesec.html',
+    link: '#', //link: 'company-detail/aiesec.html',
     width: '200',
   },
 ];
@@ -286,7 +284,7 @@ const entreExpo = [
     link: 'company-detail/madu-akasia.html',
     width: '200',
   },
-  
+
   {
     id: 1,
     title: 'Moring Mojang',
