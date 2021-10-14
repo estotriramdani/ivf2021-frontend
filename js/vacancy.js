@@ -122,7 +122,7 @@ const vacancies = [
     ],
   },
   {
-    id: ,6
+    id: 6,
     name: 'Great Giant Foods',
     link: 'company-detail/pt-great-giant-pineapple.html.html',
     address: 'Kota Administrasi Jakarta Selatan, Indonesia',
