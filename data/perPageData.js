@@ -27,19 +27,11 @@ const careerExpo = [
     link: 'company-detail/pt-elevenia-digital-teknologi-sukses.html',
     width: '300',
   },
-  /*{
-    id: 6,
-    title: 'PT Bumi Rasa Pangan Utama',
-    image: 'pt-bumi-rasa-pangan-utama.png',
-    link: 'company-detail/pt-bumi-rasa-pangan-utama.html',
-    width: '200',
-  },*/
   {
     id: 6,
     title: 'Coca-Cola Europacific Partners Indonesia (CCEP Indonesia)',
     image: 'coca-cola-europacific-partners-indonesia.png',
     link: 'company-detail/coca-cola-europacific-partners-indonesia.html',
-
     width: '300',
   },
   {
@@ -54,7 +46,6 @@ const careerExpo = [
     title: 'PT Sanghiang Perkasa (Kalbe Nutritionals)',
     image: 'pt-sanghiang-perkata-kalbe-nutritionals.png',
     link: 'company-detail/pt-sanghiang-perkata-kalbe-nutritionals.html',
-
     width: '200',
   },
   {

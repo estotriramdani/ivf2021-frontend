@@ -121,6 +121,83 @@ const vacancies = [
       },
     ],
   },
+  {
+    id: ,6
+    name: 'Great Giant Foods',
+    link: 'company-detail/pt-great-giant-pineapple.html.html',
+    address: 'Kota Administrasi Jakarta Selatan, Indonesia',
+    vacancies: [
+      {
+        id: 1,
+        position: 'Leadership Acceleration Program',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4390/leadership-acceleration-program',
+      },
+    ],
+  },
+  {
+    id: 7,
+    name: 'PT. Inspirasi Masuk Kampus',
+    link: 'company-detail/pt-inspirasi-masuk-kampus.html',
+    address: 'Kota Administrasi Jakarta Selatan, Indonesia',
+    vacancies: [
+      {
+        id: 1,
+        position: 'Online Teacher Fisika - Part time',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4409/online-teacher-fisika-parttime',
+      },
+      {
+        id: 2,
+        position: 'Online Teacher Matematika - Part time',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4408/online-teacher-matematika-parttime',
+      },
+      {
+        id: 3,
+        position: 'Web Developer (Fullstack)',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4407/web-developer-fullstack',
+      },
+      {
+        id: 4,
+        position: ' Staf Akademik Matematika - Freelance',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4406/staf-akademik-matematika-freelance',
+      },
+      {
+        id: 5,
+        position: 'Program Director',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4405/program-director',
+      },
+    ],
+  },
+  {
+    id: 8,
+    name: 'PT Kasen Indonesia',
+    link: 'company-detail/pt-kasen-indonesia.html',
+    address: 'Kabupaten Bekasi, Indonesia',
+    vacancies: [
+      {
+        id: 1,
+        position: 'Staff Marketing',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4410/staff-marketing',
+      },
+    ],
+  },
+  /*{
+    id: ,
+    name: '',
+    link: 'company-detail/.html',
+    address: '',
+    vacancies: [
+      {
+        id: 1,
+        position: '',
+        link: '',
+      },
+      {
+        id: 2,
+        position: '',
+        link: '',
+      },
+    ],
+  },*/
 ];
 
 const vacancyListGenerator = (vacancies) => {
