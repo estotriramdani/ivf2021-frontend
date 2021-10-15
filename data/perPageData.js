@@ -161,14 +161,14 @@ const scholarExpo = [
     id: 6,
     title: 'University of Groningen',
     image: 'grow-groningen.png',
-
+    link:'#',
     width: '200',
   },
   {
     id: 7,
     title: 'Wageningen University',
     image: 'grow-wageningen.png',
-
+    link:'#',
     width: '200',
   },
   {
