@@ -90,6 +90,13 @@ const careerExpo = [
     link: 'company-detail/pt-kasen-indonesia.html',
     width: '200',
   },
+  {
+    id: 15,
+    title: 'Astra Credit Companies',
+    image: 'astra-credit-companies.jpg',
+    //link: 'company-detail/astra-credit-companies.html',
+    width: '300',
+  },
   /*{
     id:,
     title: '',
@@ -172,6 +179,13 @@ const internExpo = [
     title: 'AIESEC',
     image: 'aiesec.png',
     link: '#', //link: 'company-detail/aiesec.html',
+    width: '200',
+  },
+  {
+    id: 2,
+    title: 'PT Ravindo Sukses Mulia',
+    image: 'ravindo.jpg',
+    link: 'https://cda.ipb.ac.id/member/employer/view/53566/pt-ravindo-sukses-mulia',
     width: '200',
   },
 ];
