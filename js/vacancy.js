@@ -220,6 +220,7 @@ const vacancies = [
   {
     id: 10,
     name: 'PT Web Media Technology Indonesia (Niagahoster)',
+    logo: 'niagahoster.jpeg',
     link: 'company-detail/niagahoster.html',
     address: 'Kabupaten Sleman , Daerah Istimewa Yogyakarta',
     vacancies: [
@@ -263,6 +264,7 @@ const vacancies = [
   {
     id: 11,
     name: 'PT. Malindo Feedmill, Tbk',
+    logo: 'pt-malindo-feedmill-tbk.png',
     link: 'company-detail/pt-malindo-feedmill-tbk.html',
     address: 'Kota Administrasi Jakarta Selatan , DKI Jakarta',
     vacancies: [
@@ -322,6 +324,7 @@ const vacancies = [
   {
     id: 12,
     name: 'Bina Nusantara Group',
+    logo: 'bina-nusantara-group.png',
     link: 'company-detail/bina-nusantara-group.html',
     address: 'Kota Administrasi Jakarta Barat , DKI Jakarta',
     vacancies: [
