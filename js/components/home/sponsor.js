@@ -8,14 +8,12 @@ const sponsorOne = `
 </a>
 `;
 
-
-
 const sponsorHTML = `
 <div class="row justify-content-center px-4">
-  <div class="col-6 col-md-3 col-lg-4">
+  <div class="col-6">
     ${sponsorOne}
   </div>
 </div>
 `;
 
-document.querySelector('.sponsor-image').innerHTML = sponsorHTML;
+// document.querySelector('.sponsor-image').innerHTML = sponsorHTML;
