@@ -180,6 +180,199 @@ const vacancies = [
       },
     ],
   },
+  {
+    id: 9,
+    name: 'PT Sanghiang Perkasa (Kalbe Nutritionals)',
+    link: 'company-detail/pt-sanghiang-perkata-kalbe-nutritionals.html',
+    address: 'Kota Administrasi Jakarta Utara , DKI Jakarta',
+    vacancies: [
+      {
+        id: 1,
+        position: 'Business Representative',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4376/business-representative',
+      },
+      {
+        id: 2,
+        position: 'Brand Manager',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4379/brand-manager',
+      },
+      {
+        id: 3,
+        position: 'Business Partner Trainer',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4380/business-partner-trainer',
+      },
+      {
+        id: 4,
+        position: 'Medical Account Executive',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4381/medical-account-executive',
+      },
+      {
+        id: 5,
+        position: 'Management Trainee',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4382/management-trainee',
+      },
+    ],
+  },
+  {
+    id: 10,
+    name: 'PT Web Media Technology Indonesia (Niagahoster)',
+    link: 'company-detail/niagahoster.html',
+    address: 'Kabupaten Sleman , Daerah Istimewa Yogyakarta',
+    vacancies: [
+      {
+        id: 1,
+        position: 'SEO Content Writer (Technical)',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4397/seo-content-writer-technical',
+      },
+      {
+        id: 2,
+        position: 'Customer Success Specialist - Global Team (English Speaker)',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4400/customer-success-specialist--global-team-english-speaker',
+      },
+      {
+        id: 3,
+        position: 'Full Stack Developer',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4395/full-stack-developer',
+      },
+      {
+        id: 4,
+        position: 'Affiliate Marketing Specialist',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4394/affiliate-marketing-specialist',
+      },
+      {
+        id: 5,
+        position: 'Customer Success Specialist - Local Team',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4393/customer-success-specialist--local-team',
+      },
+      {
+        id: 6,
+        position: 'Outreach Specialist',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4392/outreach-specialist',
+      },
+      {
+        id: 7,
+        position: 'Influencer Marketing Associate',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4391/influencer-marketing-associate',
+      },
+    ],
+  },
+  {
+    id: 11,
+    name: 'PT. Malindo Feedmill, Tbk',
+    link: 'company-detail/pt-malindo-feedmill-tbk.html',
+    address: 'Kota Administrasi Jakarta Selatan , DKI Jakarta',
+    vacancies: [
+      {
+        id: 1,
+        position: 'Staff Purchasing',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4354/staff-purchasing',
+      },
+      {
+        id: 2,
+        position: 'Dokter Hewan',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4351/dokter-hewan',
+      },
+      {
+        id: 3,
+        position: 'Marketing Staff (Day old chick)',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4355/marketing-staff-day-old-chick',
+      },
+      {
+        id: 4,
+        position: ' Sr. Staff HRD (Cikarang)',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4356/sr-staff-hrd-cikarang',
+      },
+      {
+        id: 5,
+        position: 'SPV Farm',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4356/sr-staff-hrd-cikarang',
+      },
+      {
+        id: 6,
+        position: 'SPV Project',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4358/spv-project',
+      },
+      {
+        id: 7,
+        position: 'Dokter Hewan (Asst. Manager)',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4359/dokter-hewan-asst-manager',
+      },
+      {
+        id: 8,
+        position: 'Manager Technical Sales',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4360/manager-technical-sales',
+      },
+      {
+        id: 9,
+        position: 'Staff Finance',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4353/staff-finance',
+      },
+      {
+        id: 10,
+        position: 'Staff Acoounting (Lampung/Cikarang)',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4352/staff-acoounting-lampung-cikarang',
+      },
+      
+    ],
+  },
+  {
+    id: 12,
+    name: 'Bina Nusantara Group',
+    link: 'company-detail/bina-nusantara-group.html',
+    address: 'Kota Administrasi Jakarta Barat , DKI Jakarta',
+    vacancies: [
+      {
+        id: 1,
+        position: 'Learning Partner & Operation Staff',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4368/learning-partner--operation-staff',
+      },
+      {
+        id: 2,
+        position: 'Marketing Staff',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4369/marketing-staff',
+      },
+      {
+        id: 3,
+        position: 'Faculty Member BINUS University',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4370/faculty-member-binus-university',
+      },
+      {
+        id: 4,
+        position: 'Senior Researcher',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4371/senior-researcher',
+      },
+      {
+        id: 5,
+        position: 'Data Scientist Officer',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4367/data-scientist-officer',
+      },
+      {
+        id: 6,
+        position: 'System Analyst',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4366/system-analyst',
+      },
+      {
+        id: 7,
+        position: 'Senior Programmer',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4365/senior-programmer',
+      },
+      {
+        id: 8,
+        position: 'Laboratory Coordinator Computer Science (BINUS @Senayan)',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4372/laboratory-coordinator-computer-science-binus-%40senayan',
+      },
+      {
+        id: 9,
+        position: 'Student Advisory & Support Center Manager (BINUS @Alam Sutera)',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4373/student-advisory--support-center-manager-binus-%40alam-sutera',
+      },
+      {
+        id: 10,
+        position: 'Operation Staff',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4374/operation-staff',
+      },
+    ],
+  },
   /*{
     id: ,
     name: '',

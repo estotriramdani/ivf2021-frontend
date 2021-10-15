@@ -36,22 +36,22 @@ const timelineData = [
   {
     id: 1,
     date: '1-30 Oktober 2021',
-    name: '[New] Academy IVF',
+    name: 'Academy IVF',
   },
   {
     id: 2,
-    date: '16-20 Oktober 2021',
-    name: 'Career, Internship, Scholarship, [New] Entrepreneurship Expo',
+    date: '16 Oktober - 20 November 2021',
+    name: 'Career, Internship, Scholarship, Entrepreneurship Expo',
   },
   {
     id: 3,
-    date: '16-20 Oktober 2021',
+    date: '15-19 November 2021',
     name: 'Webinar Series',
   },
   {
     id: 4,
     date: '15-19 November 2021',
-    name: '[New] Meeting & Chatting with Company ',
+    name: 'Meeting & Chatting with Company ',
   },
 ];
 

@@ -1,5 +1,5 @@
 const sponsorOne = `
-<a href="company-detail.html">
+<a href="company-detail/linkaja.html">
   <img
     src="logo/linkaja.png"
     alt="logo LinkAja"
