@@ -175,7 +175,7 @@ const scholarExpo = [
     id: 8,
     title: 'Nuffic Neso',
     image: 'nuffic-neso.png',
-    link: 'company-detail/nuffic-neso.html',
+    link: '#',
     width: '200',
   },
   {
