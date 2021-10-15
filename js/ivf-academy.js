@@ -81,6 +81,13 @@ const fourthDay = [
 const fifthDay = [
   {
     id: 1,
+    time: '13.00-15.00 WIB',
+    title: 'Personal Branding & Interview Communication',
+    company: 'Ruang Guru',
+    link: '',
+  },
+  {
+    id: 2,
     time: '19.00 -21.00 WIB',
     title: 'Peluang Karir Agrobisnis di Multinasional Companies',
     company: '3C Virtual Human Capital',
