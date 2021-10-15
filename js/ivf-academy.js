@@ -136,8 +136,8 @@ const trGroup = {
   third: tableHTMLGenerator(trLoop(thirdDay)),
   four: tableHTMLGenerator(trLoop(fourthDay)),
   five: tableHTMLGenerator(trLoop(fifthDay)),
-  sixth: tableHTMLGenerator(trLoop(sixthDay)),
-  seventh: tableHTMLGenerator(trLoop(seventhDay)),
+  six: tableHTMLGenerator(trLoop(sixthDay)),
+  seven: tableHTMLGenerator(trLoop(seventhDay)),
 };
 
 rundownList.innerHTML = trGroup.first;

@@ -72,8 +72,14 @@ function handleChangeTable(e) {
       case '3':
         rundownList.innerHTML = trGroup.four;
         break;
-      default:
+      case '4':
         rundownList.innerHTML = trGroup.five;
+        break;
+      case '5':
+        rundownList.innerHTML = trGroup.six;
+        break;
+      default:
+        rundownList.innerHTML = trGroup.seven;
         break;
     }
   }, 500);
