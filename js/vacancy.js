@@ -124,6 +124,7 @@ const vacancies = [
   {
     id: 6,
     name: 'Great Giant Foods',
+    logo: 'pt-great-giant-pineapple.png',
     link: 'company-detail/pt-great-giant-pineapple.html.html',
     address: 'Kota Administrasi Jakarta Selatan, Indonesia',
     vacancies: [
@@ -137,6 +138,7 @@ const vacancies = [
   {
     id: 7,
     name: 'PT. Inspirasi Masuk Kampus',
+    logo: 'pt-inspirasi-masuk-kampus.jpeg',
     link: 'company-detail/pt-inspirasi-masuk-kampus.html',
     address: 'Kota Administrasi Jakarta Selatan, Indonesia',
     vacancies: [
@@ -170,6 +172,7 @@ const vacancies = [
   {
     id: 8,
     name: 'PT Kasen Indonesia',
+    logo: 'pt-kasen-indonesia.png',
     link: 'company-detail/pt-kasen-indonesia.html',
     address: 'Kabupaten Bekasi, Indonesia',
     vacancies: [
@@ -183,6 +186,7 @@ const vacancies = [
   {
     id: 9,
     name: 'PT Sanghiang Perkasa (Kalbe Nutritionals)',
+    logo: 'pt-sanghiang-perkata-kalbe-nutritionals.png',
     link: 'company-detail/pt-sanghiang-perkata-kalbe-nutritionals.html',
     address: 'Kota Administrasi Jakarta Utara , DKI Jakarta',
     vacancies: [
@@ -216,6 +220,7 @@ const vacancies = [
   {
     id: 10,
     name: 'PT Web Media Technology Indonesia (Niagahoster)',
+    logo: 'niagahoster.jpeg',
     link: 'company-detail/niagahoster.html',
     address: 'Kabupaten Sleman , Daerah Istimewa Yogyakarta',
     vacancies: [
@@ -259,6 +264,7 @@ const vacancies = [
   {
     id: 11,
     name: 'PT. Malindo Feedmill, Tbk',
+    logo: 'pt-malindo-feedmill-tbk.png',
     link: 'company-detail/pt-malindo-feedmill-tbk.html',
     address: 'Kota Administrasi Jakarta Selatan , DKI Jakarta',
     vacancies: [
@@ -318,6 +324,7 @@ const vacancies = [
   {
     id: 12,
     name: 'Bina Nusantara Group',
+    logo: 'bina-nusantara-group.png',
     link: 'company-detail/bina-nusantara-group.html',
     address: 'Kota Administrasi Jakarta Barat , DKI Jakarta',
     vacancies: [
@@ -376,6 +383,7 @@ const vacancies = [
   {
     id: 13,
     name: 'Coca-Cola Europacific Partners Indonesia (CCEP Indonesia)',
+    logo: 'coca-cola-europacific-partners-indonesia.png',
     link: 'company-detail/coca-cola-europacific-partners-indonesia.html',
     address: 'Kota Administrasi Jakarta Selatan , DKI Jakarta',
     vacancies: [
@@ -421,9 +429,53 @@ const vacancies = [
       },
     ],
   },
+  {
+    id: 14,
+    name: 'PT Ravindo Sukses Mulia',
+    logo: 'ravindo.jpg',
+    link: 'https://cda.ipb.ac.id/member/employer/view/53566/pt-ravindo-sukses-mulia',
+    address: 'Kota Bogor , Jawa Barat',
+    vacancies: [
+      {
+        id: 1,
+        position: 'Export Management Intenrship',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4403/export-management-intenrship',
+      },
+      {
+        id: 2,
+        position: 'Digital Marketing Intenship',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4404/digital-marketing-intenship',
+      },
+      {
+        id: 3,
+        position: 'Retail Management Internship',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4402/retail-management-internship',
+      },
+      {
+        id: 4,
+        position: 'Nursery Management Internship',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4401/nursery-management-internship',
+      },
+    ],
+  },
+  {
+    id: 15,
+    name: 'PT Jimmagro Inter Mulya',
+    logo: 'pt-jimmagro-inter-mulya.png',
+    link: 'company-detail/pt-jimmagro-inter-mulya.html',
+    address: 'Kota Administrasi Jakarta Selatan , DKI Jakarta',
+    vacancies: [
+      {
+        id: 1,
+        position: 'Mandor Hortikultura',
+        link: 'Mandor Hortikultura',
+      },
+    ],
+  },
   /*{
     id: ,
     name: '',
+    logo: '',
     link: 'company-detail/.html',
     address: '',
     vacancies: [
