@@ -35,8 +35,8 @@ const firstDay = [
     id: 2,
     time: '11.00 - 12.00',
     title: '',
-    company: '',
-    link: '',
+    company: 'PT. Great Giant Pineapple',
+    link: '#',
   },
   {
     id: 3,
@@ -82,8 +82,8 @@ const thirdDay = [
   {
     id: 2,
     time: '11.00 - 12.00',
-    title: '',
-    company: '',
+    title: 'Study in the Netherlands at Leiden University',
+    company: 'Leiden University',
     link: '',
   },
   {
@@ -124,7 +124,7 @@ const fifthDay = [
     id: 1,
     time: '9.30 - 10.30',
     title: "",
-    company: '',
+    company: 'Astra Credit Companies',
     link: '',
   },
   {

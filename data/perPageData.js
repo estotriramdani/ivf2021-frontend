@@ -133,7 +133,7 @@ const scholarExpo = [
     id: 5,
     title: 'GROW Dutch Universities Representative (Study in Holland)',
     image: 'grow-ducth-universities-representative.png',
-    link: '#', //link: 'company-detail/grow-ducth-universities-representative.html',
+    link: 'company-detail/grow-ducth-universities-representative.html',
     width: '200',
   },
   {
@@ -155,6 +155,13 @@ const scholarExpo = [
     title: 'Nuffic Neso',
     image: 'nuffic-neso.png',
     link: 'company-detail/nuffic-neso.html',
+    width: '200',
+  },
+  {
+    id:9,
+    title: 'LPDP',
+    image: 'lpdp.jpg',
+    link: '',
     width: '200',
   },
 ];
