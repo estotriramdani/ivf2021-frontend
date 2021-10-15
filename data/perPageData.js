@@ -97,6 +97,20 @@ const careerExpo = [
     link:'#',//link: 'company-detail/astra-credit-companies.html',
     width: '300',
   },
+  {
+    id: 16,
+    title: 'PT Jimmagro Inter Mulya',
+    image: 'pt-jimmagro-inter-mulya.png',
+    link: 'company-detail/pt-jimmagro-inter-mulya.html',
+    width: '200',
+  },
+  {
+    id: 17,
+    title: 'PT. Dharma Satya Nusantara, Tbk',
+    image: 'pt-dharma-satya-nusantara-tbk.png',
+    link: 'company-detail/pt-dharma-satya-nusantara-tbk.html',
+    width: '200',
+  },
   /*{
     id:,
     title: '',
