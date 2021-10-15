@@ -94,7 +94,7 @@ const careerExpo = [
     id: 15,
     title: 'Astra Credit Companies',
     image: 'astra-credit-companies.jpg',
-    //link: 'company-detail/astra-credit-companies.html',
+    link:'#'//link: 'company-detail/astra-credit-companies.html',
     width: '300',
   },
   /*{
