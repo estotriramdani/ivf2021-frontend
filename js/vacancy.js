@@ -123,20 +123,8 @@ const vacancies = [
   },
   {
     id: 6,
-    name: 'Great Giant Foods',
-    link: 'company-detail/pt-great-giant-pineapple.html.html',
-    address: 'Kota Administrasi Jakarta Selatan, Indonesia',
-    vacancies: [
-      {
-        id: 1,
-        position: 'Leadership Acceleration Program',
-        link: 'https://cda.ipb.ac.id/vacancy/site/view/4390/leadership-acceleration-program',
-      },
-    ],
-  },
-  {
-    id: 7,
     name: 'PT. Inspirasi Masuk Kampus',
+    logo: 'pt-inspirasi-masuk-kampus.jpeg',
     link: 'company-detail/pt-inspirasi-masuk-kampus.html',
     address: 'Kota Administrasi Jakarta Selatan, Indonesia',
     vacancies: [
@@ -168,8 +156,24 @@ const vacancies = [
     ],
   },
   {
+    id: 7,
+    name: 'Great Giant Foods',
+    logo: 'pt-great-giant-pineapple.png',
+    link: 'company-detail/pt-great-giant-pineapple.html.html',
+    address: 'Kota Administrasi Jakarta Selatan, Indonesia',
+    vacancies: [
+      {
+        id: 1,
+        position: 'Leadership Acceleration Program',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4390/leadership-acceleration-program',
+      },
+    ],
+  },
+  
+  {
     id: 8,
     name: 'PT Kasen Indonesia',
+    logo: 'pt-kasen-indonesia.png',
     link: 'company-detail/pt-kasen-indonesia.html',
     address: 'Kabupaten Bekasi, Indonesia',
     vacancies: [
@@ -183,6 +187,7 @@ const vacancies = [
   /*{
     id: ,
     name: '',
+    logo: '',
     link: 'company-detail/.html',
     address: '',
     vacancies: [
