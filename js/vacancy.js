@@ -380,6 +380,54 @@ const vacancies = [
       },
     ],
   },
+  {
+    id: 13,
+    name: 'Coca-Cola Europacific Partners Indonesia (CCEP Indonesia)',
+    link: 'company-detail/coca-cola-europacific-partners-indonesia.html',
+    address: 'Kota Administrasi Jakarta Selatan , DKI Jakarta',
+    vacancies: [
+      {
+        id: 1,
+        position: 'Graduate Trainee Program (Sales Modern Trade)',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4398/graduate-trainee-program-sales-modern-trade',
+      },
+      {
+        id: 2,
+        position: 'Graduate Trainee Program (Human Resources)',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4399/graduate-trainee-program-human-resources',
+      },
+      {
+        id: 3,
+        position: 'Graduate Trainee Program (Sales General Trade)',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4396/graduate-trainee-program-sales-general-trade',
+      },
+      {
+        id: 4,
+        position: 'Graduate Trainee Program (Marketing)',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4387/graduate-trainee-program-marketing',
+      },
+      {
+        id: 5,
+        position: 'Graduate Trainee Program (Finance & Governance)',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4386/graduate-trainee-program-finance--governance',
+      },
+      {
+        id: 6,
+        position: 'Graduate Trainee Program (Information Technology)',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4385/graduate-trainee-program-information-technology',
+      },
+      {
+        id: 7,
+        position: 'Graduate Trainee Program (Route to Market)',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4384/graduate-trainee-program-route-to-market',
+      },
+      {
+        id: 8,
+        position: 'Graduate Trainee Program (Supply Chain)',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4383/graduate-trainee-program-supply-chain',
+      },
+    ],
+  },
   /*{
     id: ,
     name: '',
