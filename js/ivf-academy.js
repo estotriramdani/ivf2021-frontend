@@ -88,7 +88,7 @@ const fifthDay = [
   },
   {
     id: 2,
-    time: '19.00 -21.00 WIB',
+    time: '19.00-21.00 WIB',
     title: 'Peluang Karir Agrobisnis di Multinasional Companies',
     company: '3C Virtual Human Capital',
     link: 'https://cda.ipb.ac.id/eventlist/site/view/38',
@@ -97,7 +97,7 @@ const fifthDay = [
 const sixthDay = [
   {
     id: 1,
-    time: '19.15 -21.00 WIB',
+    time: '19.15-21.00 WIB',
     title: 'Praktik & Penguatan',
     company: 'CDA IPB',
     link: '#',
@@ -106,7 +106,7 @@ const sixthDay = [
 const seventhDay = [
   {
     id: 1,
-    time: '19.15 -21.00 WIB',
+    time: '19.15-21.00 WIB',
     title: 'Praktik & Penguatan',
     company: 'CDA IPB',
     link: '#',
