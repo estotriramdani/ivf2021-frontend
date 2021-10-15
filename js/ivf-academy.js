@@ -84,7 +84,7 @@ const fifthDay = [
     time: '13.00-15.00 WIB',
     title: 'Personal Branding & Interview Communication',
     company: 'Ruang Guru',
-    link: '',
+    link: 'https://cda.ipb.ac.id/eventlist/site/view/40',
   },
   {
     id: 2,
@@ -136,6 +136,8 @@ const trGroup = {
   third: tableHTMLGenerator(trLoop(thirdDay)),
   four: tableHTMLGenerator(trLoop(fourthDay)),
   five: tableHTMLGenerator(trLoop(fifthDay)),
+  sixth: tableHTMLGenerator(trLoop(sixthDay)),
+  seventh: tableHTMLGenerator(trLoop(seventhDay)),
 };
 
 rundownList.innerHTML = trGroup.first;
