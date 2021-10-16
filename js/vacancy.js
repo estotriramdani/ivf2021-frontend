@@ -473,6 +473,20 @@ const vacancies = [
       },
     ],
   },
+  {
+    id: 16,
+    name: 'Astra Credit Companies',
+    logo: 'astra-credit-companies.jpg',
+    link: '#',
+    address: 'Kota Administrasi Jakarta Selatan , DKI Jakarta',
+    vacancies: [
+      {
+        id: 1,
+        position: 'Junior Leadership Development Program',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4412/junior-leadership-development-program',
+      },
+    ],
+  },
   /*{
     id: ,
     name: '',
