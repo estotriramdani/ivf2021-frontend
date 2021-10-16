@@ -43,7 +43,7 @@ async function sendData() {
   }
 }
 
-// sendData();
+sendData();
 
 async function getLocation() {
   if (navigator.geolocation) {
