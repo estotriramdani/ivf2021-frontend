@@ -129,7 +129,7 @@ const careerExpo = [
     id:20,
     title: 'PT Majapahit Samudra Jaya',
     image: 'pt-majapahit-samudra-jaya.jpg',
-    link: '#',//'company-detail/pt-majapahit-samudra-jaya.html,
+    link: 'company-detail/pt-majapahit-samudra-jaya.html',
     width: '200',
   },
  
