@@ -94,7 +94,7 @@ const careerExpo = [
     id: 15,
     title: 'Astra Credit Companies',
     image: 'astra-credit-companies.jpg',
-    link:'#',//link: 'company-detail/astra-credit-companies.html',
+    link: 'company-detail/astra-credit-companies.html',
     width: '300',
   },
   {
@@ -106,11 +106,33 @@ const careerExpo = [
   },
   {
     id: 17,
-    title: 'PT. Dharma Satya Nusantara, Tbk',
-    image: 'pt-dharma-satya-nusantara-tbk.png',
+    title: 'PT. Dharma Satya Nusantara, Tbk (DSN Group)',
+    image: 'pt-dharma-satya-nusantara-tbk.jpg',
     link: 'company-detail/pt-dharma-satya-nusantara-tbk.html',
     width: '200',
   },
+  {
+    id:18,
+    title: 'PT. Home Centre Indonesia (Kawan Lama) ',
+    image: 'pt-home-center-indonesia.jpg',
+    link: 'company-detail/pt-home-center-indonesia.html',
+    width: '200',
+  },
+  {
+    id:19,
+    title: 'PT. Indogal Agro Trading',
+    image: 'pt-indogal-agro-trading.jpg',
+    link: 'company-detail/pt-indogal-agro-trading.html',
+    width: '200',
+  },
+  {
+    id:20,
+    title: 'PT Majapahit Samudra Jaya',
+    image: 'pt-majapahit-samudra-jaya.jpg',
+    link: '#',//'company-detail/pt-majapahit-samudra-jaya.html,
+    width: '200',
+  },
+ 
   /*{
     id:,
     title: '',
