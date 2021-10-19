@@ -487,6 +487,35 @@ const vacancies = [
       },
     ],
   },
+  {
+    id: 16,
+    name: 'PT Majapahit Samudra Jaya',
+    logo: 'pt-majapahit-samudra-jaya.jpg',
+    link: 'company-detail/pt-majapahit-samudra-jaya.html',
+    address: 'Kota Administrasi Jakarta Pusat , DKI Jakarta',
+    vacancies: [
+      {
+        id: 1,
+        position: 'Management Development Program for PT Majapahit Samudra Jaya',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4417/management-development-program-for-pt-majapahit-samudra-jaya',
+      },
+    ],
+  },
+  {
+    id: 17,
+    name: 'PT. Dharma Satya Nusantara, Tbk (DSN Group)',
+    logo: 'pt-dharma-satya-nusantara-tbk.jpg',
+    link: 'company-detail/pt-dharma-satya-nusantara-tbk.html',
+    address: 'Kabupaten Temanggung , Jawa Tengah',
+    vacancies: [
+      {
+        id: 1,
+        position: 'DSN Falcataria Trainee',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4416/dsn-falcataria-trainee',
+      },
+
+    ],
+  },
   /*{
     id: ,
     name: '',
