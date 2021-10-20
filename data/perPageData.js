@@ -123,7 +123,7 @@ const careerExpo = [
     title: 'PT. Indogal Agro Trading',
     image: 'pt-indogal-agro-trading.jpg',
     link: 'company-detail/pt-indogal-agro-trading.html',
-    width: '200',
+    width: '300',
   },
   {
     id:20,
