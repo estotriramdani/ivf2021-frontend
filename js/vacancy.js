@@ -516,54 +516,6 @@ const vacancies = [
 
     ],
   },
-  {
-    id: 18,
-    name: 'Group M',
-    logo: 'groupm.jpg',
-    link: 'company-detail/group-m.html',
-    address: 'Kota Administrasi Jakarta Selatan , DKI Jakarta',
-    vacancies: [
-      {
-        id: 1,
-        position: 'Media Masters',
-        link: 'https://cda.ipb.ac.id/vacancy/site/view/4423/media-masters',
-      },
-    ],
-  },
-  {
-    id: 19,
-    name: 'PT. Indogal Agro Trading',
-    logo: 'pt-indogal-agro-trading.jpg',
-    link: 'company-detail/pt-indogal-agro-trading.html',
-    address: 'Kota Administrasi Jakarta Selatan , DKI Jakarta',
-    vacancies: [
-      {
-        id: 1,
-        position: 'Butcher',
-        link: 'https://cda.ipb.ac.id/vacancy/site/view/4422/butcher',
-      },
-      {
-        id: 2,
-        position: 'Staff Meat & Butchery',
-        link: 'https://cda.ipb.ac.id/vacancy/site/view/4422/butcher',
-      },
-      {
-        id: 3,
-        position: 'Staff Veterinary & Animal Husbandry',
-        link: 'https://cda.ipb.ac.id/vacancy/site/view/4420/staff-veterinary--animal-husbandry',
-      },
-      {
-        id: 4,
-        position: 'Staff Breeding & Genetic31',
-        link: 'https://cda.ipb.ac.id/vacancy/site/view/4418/staff-breeding--genetic',
-      },
-      {
-        id: 5,
-        position: 'Technical Sales Executive (Ruminansia)',
-        link: 'https://cda.ipb.ac.id/vacancy/site/view/4419/technical-sales-executive-ruminansia',
-      },
-    ],
-  },
   /*{
     id: ,
     name: '',
