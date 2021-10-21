@@ -132,7 +132,13 @@ const careerExpo = [
     link: 'company-detail/pt-majapahit-samudra-jaya.html',
     width: '200',
   },
- 
+  {
+    id:21,
+    title: 'Group M',
+    image: 'groupm.jpg',
+    link: 'company-detail/group-m.html',
+    width: '200',
+  },
   /*{
     id:,
     title: '',
