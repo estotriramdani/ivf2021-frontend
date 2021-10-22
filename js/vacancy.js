@@ -2,6 +2,26 @@ AOS.init();
 
 const vacancies = [
   {
+    id: 0,
+    name: 'LinkAja',
+    logo: 'linkaja.png',
+    link: 'company-detail/linkaja.html',
+    address: 'Kota Administrasi Jakarta Selatan , DKI Jakarta',
+    vacancies: [
+      {
+        id: 1,
+        position: 'SDET & QA Assurance',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4424/sdet--qa-assurance',
+      },
+      {
+        id: 2,
+        position: 'IT Security Engineer',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4425/it-security-engineer',
+      },
+     
+    ],
+  },
+  {
     id: 1,
     name: 'PT Elevenia Digital Teknologi Sukses',
     logo: 'pt-elevenia-digital-teknologi-sukses.jpg',
