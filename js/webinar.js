@@ -27,23 +27,24 @@ const firstDay = [
   {
     id: 1,
     time: '9.30 - 10.30',
-    title: "Handling Emotion and Pressure at Work: Managing Yourself as a Professional",
+    title:
+      'Handling Emotion and Pressure at Work: Managing Yourself as a Professional',
     company: 'Coca-Cola Europacific Partners Indonesia (CCEP Indonesia)',
-    link: '#',
+    link: '#tutup',
   },
   {
     id: 2,
     time: '11.00 - 12.00',
     title: '',
     company: 'PT. Great Giant Pineapple',
-    link: '#',
+    link: '#tutup',
   },
   {
     id: 3,
     time: '13.30 - 14.30',
     title: 'Start Data Career with EDTS',
     company: 'PT. Elevenia Digital Teknologi Sukses',
-    link: '#',
+    link: '#tutup',
   },
 ];
 
@@ -51,23 +52,23 @@ const secondDay = [
   {
     id: 1,
     time: '9.30 - 10.30',
-    title: "",
+    title: '',
     company: 'PT. Dharma Satya Nusantara, Tbk',
-    link: '#',
+    link: '#tutup',
   },
   {
     id: 2,
     time: '11.00 - 12.00',
     title: 'How to Kickstart Your Career in Digital Industry',
     company: 'PT Web Media Technology Indonesia (Niagahoster)',
-    link: '#',
+    link: '#tutup',
   },
   {
     id: 3,
     time: '13.30 - 14.30',
     title: 'What&lsquo;s the Culture like to Work in Education Industry',
     company: 'Bina Nusantara Group',
-    link: '#',
+    link: '#tutup',
   },
 ];
 
@@ -77,21 +78,21 @@ const thirdDay = [
     time: '9.30 - 10.30',
     title: 'Info session Scholarship MM di PPM School of Management',
     company: 'PPM School of Management',
-    link: '#',
+    link: '#tutup',
   },
   {
     id: 2,
     time: '11.00 - 12.00',
     title: '',
     company: 'PT Indogal Agro Trading',
-    link: '',
+    link: '#tutup',
   },
   {
     id: 3,
     time: '13.30 - 14.30',
     title: '',
     company: 'LinkAja',
-    link: '#',
+    link: '#tutup',
   },
 ];
 
@@ -99,23 +100,23 @@ const fourthDay = [
   {
     id: 1,
     time: '9.30 - 10.30',
-    title: "",
+    title: '',
     company: 'PT Home Center Indonesia',
-    link: '#',
+    link: '#hidden',
   },
   {
     id: 2,
     time: '11.00 - 12.00',
     title: '',
     company: 'LPDP',
-    link: '#',
+    link: '#hidden',
   },
   {
     id: 3,
     time: '13.30 - 14.30',
     title: 'Presentasi Perusahaan dan Seminar Online',
     company: 'PT. Malindo Feedmill, Tbk',
-    link: '#',
+    link: '#hidden',
   },
 ];
 
@@ -123,23 +124,23 @@ const fifthDay = [
   {
     id: 1,
     time: '9.30 - 10.30',
-    title: "",
+    title: '',
     company: 'Astra Credit Companies',
-    link: '',
+    link: '#hidden',
   },
   {
     id: 2,
     time: '11.00 - 12.00',
     title: '',
     company: '',
-    link: '',
+    link: '#hidden',
   },
   {
     id: 3,
     time: '13.30 - 14.30',
     title: '',
     company: 'GROW Dutch',
-    link: '#',
+    link: '#hidden',
   },
 ];
 
@@ -169,3 +170,8 @@ const trGroup = {
 };
 
 rundownList.innerHTML = trGroup.first;
+
+const tutup = document.querySelectorAll("a[href='#tutup']");
+const hidden = document.querySelectorAll("a[href='#hidden']");
+
+changeButtonBehaviour(tutup, hidden);

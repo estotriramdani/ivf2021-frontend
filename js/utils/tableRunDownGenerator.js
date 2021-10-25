@@ -82,5 +82,26 @@ function handleChangeTable(e) {
         rundownList.innerHTML = trGroup.seven;
         break;
     }
+    changeButtonBehaviour(
+      document.querySelectorAll("a[href='#tutup']"),
+      document.querySelectorAll("a[href='#hidden']")
+    );
   }, 500);
+}
+
+function changeButtonBehaviour(tutup, hidden) {
+  for (let index = 0; index < tutup.length; index++) {
+    const element = tutup[index];
+    element.classList.remove('button-blue');
+    element.classList.add('btn-warning');
+    element.classList.add('text-light');
+    element.innerHTML = 'Tutup';
+    element.style.cursor = 'not-allowed';
+    element.removeAttribute('target');
+  }
+
+  for (let index = 0; index < hidden.length; index++) {
+    const element = hidden[index];
+    element.classList.add('d-none');
+  }
 }
