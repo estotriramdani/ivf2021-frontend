@@ -37,7 +37,7 @@ const firstDay = [
     time: '13.00-15.00 WIB',
     title: 'Cara Memperoleh Kerja, Seluk Beluk Dunia Kerja',
     company: 'Sekolah Karir 1',
-    link: 'https://cda.ipb.ac.id/eventlist/site/view/34',
+    link: '#tutup',
   },
 ];
 
@@ -47,14 +47,14 @@ const secondDay = [
     time: '13.00-15.00 WIB',
     title: 'Personal Branding melalui CV dan Media Sosial',
     company: 'Top Karir',
-    link: 'https://cda.ipb.ac.id/eventlist/site/view/33',
+    link: '#tutup',
   },
   {
     id: 2,
     time: '19.00-21.00 WIB',
     title: 'Pengenalan Diri dan Assessment Minat Karir',
     company: 'Vooya',
-    link: 'https://cda.ipb.ac.id/eventlist/site/view/35',
+    link: '#tutup',
   },
 ];
 
@@ -64,7 +64,7 @@ const thirdDay = [
     time: '19.00-21.00 WIB',
     title: 'Interview and Grooming',
     company: 'Sekolah Karir 2',
-    link: 'https://cda.ipb.ac.id/eventlist/site/view/36',
+    link: '#tutup',
   },
 ];
 
@@ -74,7 +74,7 @@ const fourthDay = [
     time: '13.00-15.00 WIB',
     title: 'Employee Experience',
     company: 'SVB Academy',
-    link: 'https://cda.ipb.ac.id/eventlist/site/view/37',
+    link: '#tutup',
   },
 ];
 
@@ -84,14 +84,14 @@ const fifthDay = [
     time: '13.00-15.00 WIB',
     title: 'Personal Branding & Interview Communication',
     company: 'Ruang Guru',
-    link: 'https://cda.ipb.ac.id/eventlist/site/view/40',
+    link: '#tutup',
   },
   {
     id: 2,
     time: '19.00-21.00 WIB',
     title: 'Peluang Karir Agrobisnis di Multinasional Companies',
     company: '3C Virtual Human Capital',
-    link: 'https://cda.ipb.ac.id/eventlist/site/view/38',
+    link: '#tutup',
   },
 ];
 const sixthDay = [
@@ -100,7 +100,7 @@ const sixthDay = [
     time: '19.15-21.00 WIB',
     title: 'Praktik & Penguatan',
     company: 'CDA IPB',
-    link: '#',
+    link: '#hidden',
   },
 ];
 const seventhDay = [
@@ -109,7 +109,7 @@ const seventhDay = [
     time: '19.15-21.00 WIB',
     title: 'Praktik & Penguatan',
     company: 'CDA IPB',
-    link: '#',
+    link: '#hidden',
   },
 ];
 
