@@ -23,11 +23,11 @@ const days = [
   },
   {
     id: 5,
-    day: 'Kamis, 21 Oktober 2021',
+    day: 'Kamis, 28 Oktober 2021',
   },
   {
     id: 6,
-    day: 'Jumat, 22 Oktober 2021',
+    day: 'Jumat, 29 Oktober 2021',
   },
 ];
 
