@@ -584,6 +584,30 @@ const vacancies = [
       },
     ],
   },
+  {
+    id: 20,
+    name: 'PT. Home Centre Indonesia (Informa) ',
+    logo: 'pt-home-center-indonesia.jpg',
+    link: 'company-detail/pt-home-center-indonesia.html',
+    address: '',
+    vacancies: [
+      {
+        id: 1,
+        position: 'Sales Engineer',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4427/sales-engineer',
+      },
+      {
+        id: 2,
+        position: 'Sales Counter',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4428/sales-counter',
+      },
+      {
+        id: 3,
+        position: 'Operations Management Trainee Batch 11',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4426/operations-management-trainee-batch-11',
+      },
+    ],
+  },
   /*{
     id: ,
     name: '',

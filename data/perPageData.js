@@ -113,7 +113,7 @@ const careerExpo = [
   },
   {
     id:18,
-    title: 'PT. Home Centre Indonesia (Kawan Lama) ',
+    title: 'PT. Home Centre Indonesia (Informa) ',
     image: 'pt-home-center-indonesia.jpg',
     link: 'company-detail/pt-home-center-indonesia.html',
     width: '200',
