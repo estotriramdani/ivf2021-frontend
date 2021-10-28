@@ -139,6 +139,20 @@ const careerExpo = [
     link: 'company-detail/group-m.html',
     width: '200',
   },
+  {
+    id:22,
+    title: 'PT Avery Dennison Packaging Indonesia',
+    image: 'pt-avery-dennison-packaging-indonesia.jpeg',
+    link: 'company-detail/pt-avery-dennison-packaging-indonesia.html',
+    width: '200',
+  },
+  {
+    id:23,
+    title: 'PT Sele Raya Agri',
+    image: 'pt-sele-raya-agri.jpeg',
+    link: 'company-detail/pt-sele-raya-agri.html',
+    width: '200',
+  },
   /*{
     id:,
     title: '',

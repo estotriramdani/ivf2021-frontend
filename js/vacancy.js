@@ -608,6 +608,49 @@ const vacancies = [
       },
     ],
   },
+  {
+    id: 21,
+    name: 'PT Avery Dennison Packaging Indonesia',
+    logo: 'pt-avery-dennison-packaging-indonesia.jpeg',
+    link: 'company-detail/pt-avery-dennison-packaging-indonesia.html',
+    address: 'Kota Bekasi , Jawa Barat',
+    vacancies: [
+      {
+        id: 1,
+        position: 'Sales Executive',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4432/sales-executive',
+      },
+      {
+        id: 2,
+        position: 'Human Resources Management Associate',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4431/human-resources-management-associate',
+      },
+      {
+        id: 3,
+        position: 'Operation Management Associate',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4430/operation-management-associate',
+      },
+      {
+        id: 4,
+        position: 'Commercial Management Associate',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4429/commercial-management-associate',
+      },
+    ],
+  },
+  {
+    id: 22,
+    name: 'PT Sele Raya Agri',
+    logo: 'pt-sele-raya-agri.jpeg',
+    link: 'company-detail/pt-sele-raya-agri.html',
+    address: 'Kota Administrasi Jakarta Selatan , DKI Jakarta',
+    vacancies: [
+      {
+        id: 1,
+        position: 'Staff Agronomy',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4433/staff-agronomy',
+      },
+    ],
+  },
   /*{
     id: ,
     name: '',
