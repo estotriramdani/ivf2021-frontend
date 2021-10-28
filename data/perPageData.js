@@ -220,7 +220,7 @@ const internExpo = [
     id: 1,
     title: 'AIESEC',
     image: 'aiesec.png',
-    link: '#', //link: 'company-detail/aiesec.html',
+    link: 'company-detail/aiesec.html',
     width: '200',
   },
   {
