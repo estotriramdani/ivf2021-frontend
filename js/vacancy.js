@@ -651,6 +651,59 @@ const vacancies = [
       },
     ],
   },
+  {
+    id: 22,
+    name: 'PT. Andaru Persada Mandiri',
+    logo: 'pt-andaru-persada-mandiri.jpeg',
+    link: 'company-detail/pt-andaru-persada-mandiri.html',
+    address: 'Kota Bogor , Jawa Barat',
+    vacancies: [
+      {
+        id: 1,
+        position: 'SALES ENGINEER',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4443/sales-engineer',
+      },
+      {
+        id: 2,
+        position: 'SUPERVISOR SALES ENGINEER',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4437/supervisor-sales-engineer',
+      },
+      {
+        id: 3,
+        position: 'Legal',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4438/legal',
+      },
+      {
+        id: 4,
+        position: 'Supervisor Operasional',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4439/supervisor-operasional',
+      },
+      {
+        id: 5,
+        position: 'Application Engineer Staff',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4440/application-engineer-staff',
+      },
+    ],
+  },
+  {
+    id: 23,
+    name: 'PT. Perfetti Van Melle Indonesia',
+    logo: 'pt-perfetti-van-melle-indonesia.png',
+    link: 'company-detail/pt-perfetti-van-melle-indonesia.html',
+    address: 'Kabupaten Bogor , Jawa Barat',
+    vacancies: [
+      {
+        id: 1,
+        position: 'Commercial Management Trainee (CMT) (Sales program)',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4442/commercial-management-trainee-cmt--sales-program',
+      },
+      {
+        id: 2,
+        position: 'Operations Management Trainee (OMT)',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4441/operations-management-trainee-omt',
+      },
+    ],
+  },
   /*{
     id: ,
     name: '',

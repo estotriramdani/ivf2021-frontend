@@ -153,6 +153,20 @@ const careerExpo = [
     link: 'company-detail/pt-sele-raya-agri.html',
     width: '200',
   },
+  {
+    id:24,
+    title: 'PT. Andaru Persada Mandiri',
+    image: 'pt-andaru-persada-mandiri.jpeg',
+    link: 'company-detail/pt-andaru-persada-mandiri.html',
+    width: '200',
+  },
+  {
+    id:25,
+    title: 'PT. Perfetti Van Melle Indonesia',
+    image: 'pt-perfetti-van-melle-indonesia.png',
+    link: 'company-detail/pt-perfetti-van-melle-indonesia.html',
+    width: '200',
+  },
   /*{
     id:,
     title: '',
