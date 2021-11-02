@@ -42,7 +42,7 @@ const firstDay = [
     title:
       'Unlock your potential and plan your career journey with CCEP Indonesia',
     company: 'Coca-Cola Europacific Partners Indonesia (CCEP Indonesia)',
-    link: '#hidden',
+    link: 'https://cda.ipb.ac.id/eventlist/site/view/43',
   },
   {
     id: 2,
@@ -56,7 +56,7 @@ const firstDay = [
     time: '13.30 - 14.30',
     title: 'Start Data Career with EDTS',
     company: 'PT. Elevenia Digital Teknologi Sukses',
-    link: '#hidden',
+    link: 'https://cda.ipb.ac.id/eventlist/site/view/45',
   },
 ];
 
@@ -121,14 +121,14 @@ const fourthDay = [
     time: '11.00 - 12.00',
     title: 'Wujudkan Impian dengan Ikut Beasiswa LPDP',
     company: 'LPDP',
-    link: '#hidden',
+    link: 'https://cda.ipb.ac.id/eventlist/site/view/44',
   },
   {
     id: 3,
     time: '13.30 - 14.30',
     title: 'Presentasi Perusahaan dan Seminar Online',
     company: 'PT. Malindo Feedmill, Tbk',
-    link: '#hidden',
+    link: 'https://cda.ipb.ac.id/eventlist/site/view/46',
   },
 ];
 
@@ -145,7 +145,7 @@ const fifthDay = [
     time: '11.00 - 12.00',
     title: 'Study and Scholarship Opportunities in the Netherlands',
     company: 'Nuffic Neso',
-    link: '#hidden',
+    link: 'https://cda.ipb.ac.id/eventlist/site/view/47',
   },
   {
     id: 3,
@@ -185,7 +185,7 @@ const seventhDay = [
     time: '11.00 - 12.00',
     title: 'What&lsquo;s the Culture like to Work in Education Industry',
     company: 'Bina Nusantara Group',
-    link: '#hidden',
+    link: 'https://cda.ipb.ac.id/eventlist/site/view/42',
   },
   
 ];
