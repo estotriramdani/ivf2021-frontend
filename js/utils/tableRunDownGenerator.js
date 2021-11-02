@@ -78,8 +78,11 @@ function handleChangeTable(e) {
       case '5':
         rundownList.innerHTML = trGroup.six;
         break;
-      default:
+      case '6':
         rundownList.innerHTML = trGroup.seven;
+        break;
+      default:
+        rundownList.innerHTML = trGroup.eight;
         break;
     }
     changeButtonBehaviour(

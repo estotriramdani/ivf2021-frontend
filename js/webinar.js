@@ -21,6 +21,18 @@ const days = [
     id: 4,
     day: 'Jumat, 19 November 2021',
   },
+  {
+    id: 5,
+    day: 'Sabtu, 20 November 2021',
+  },
+  {
+    id: 6,
+    day: 'Senin, 22 November 2021',
+  },
+  {
+    id: 7,
+    day: 'Selasa, 23 November 2021',
+  },
 ];
 
 const firstDay = [
@@ -28,7 +40,7 @@ const firstDay = [
     id: 1,
     time: '9.30 - 10.30',
     title:
-      'Handling Emotion and Pressure at Work: Managing Yourself as a Professional',
+      'Unlock your potential and plan your career journey with CCEP Indonesia',
     company: 'Coca-Cola Europacific Partners Indonesia (CCEP Indonesia)',
     link: '#hidden',
   },
@@ -53,7 +65,7 @@ const secondDay = [
     id: 1,
     time: '9.30 - 10.30',
     title: '',
-    company: 'PT. Dharma Satya Nusantara, Tbk',
+    company: '',
     link: '#hidden',
   },
   {
@@ -66,8 +78,8 @@ const secondDay = [
   {
     id: 3,
     time: '13.30 - 14.30',
-    title: 'What&lsquo;s the Culture like to Work in Education Industry',
-    company: 'Bina Nusantara Group',
+    title: '',
+    company: '',
     link: '#hidden',
   },
 ];
@@ -83,7 +95,7 @@ const thirdDay = [
   {
     id: 2,
     time: '11.00 - 12.00',
-    title: '',
+    title: 'Start Your Journey With Us',
     company: 'PT Indogal Agro Trading',
     link: '#hidden',
   },
@@ -107,7 +119,7 @@ const fourthDay = [
   {
     id: 2,
     time: '11.00 - 12.00',
-    title: '',
+    title: 'Wujudkan Impian dengan Ikut Beasiswa LPDP',
     company: 'LPDP',
     link: '#hidden',
   },
@@ -131,6 +143,29 @@ const fifthDay = [
   {
     id: 2,
     time: '11.00 - 12.00',
+    title: 'Study and Scholarship Opportunities in the Netherlands',
+    company: 'Nuffic Neso',
+    link: '#hidden',
+  },
+  {
+    id: 3,
+    time: '13.30 - 14.30',
+    title: 'Study in Holland',
+    company: 'GROW Dutch',
+    link: '#hidden',
+  },
+];
+const sixthDay = [
+  {
+    id: 1,
+    time: '9.30 - 10.30',
+    title: 'Study in the Netherlands at Leiden University',
+    company: 'Leiden University',
+    link: '#hidden',
+  },
+  {
+    id: 2,
+    time: '11.00 - 12.00',
     title: '',
     company: '',
     link: '#hidden',
@@ -139,9 +174,30 @@ const fifthDay = [
     id: 3,
     time: '13.30 - 14.30',
     title: '',
-    company: 'GROW Dutch',
+    company: 'Erasmus',
     link: '#hidden',
   },
+];
+const seventhDay = [
+  
+  {
+    id: 2,
+    time: '11.00 - 12.00',
+    title: 'What&lsquo;s the Culture like to Work in Education Industry',
+    company: 'Bina Nusantara Group',
+    link: '#hidden',
+  },
+  
+];
+const eigthDay = [
+  {
+    id: 1,
+    time: '9.30 - 10.30',
+    title: 'DSN Goes To Campus : Build Your Career Up!',
+    company: 'PT. Dharma Satya Nusantara, Tbk',
+    link: '#hidden',
+  },
+ 
 ];
 
 const tables = document.getElementsByClassName('table');
@@ -167,6 +223,9 @@ const trGroup = {
   third: tableHTMLGenerator(trLoop(thirdDay)),
   four: tableHTMLGenerator(trLoop(fourthDay)),
   five: tableHTMLGenerator(trLoop(fifthDay)),
+  six: tableHTMLGenerator(trLoop(sixthDay)),
+  seven: tableHTMLGenerator(trLoop(seventhDay)),
+  eight: tableHTMLGenerator(trLoop(eigthDay)),
 };
 
 rundownList.innerHTML = trGroup.first;
