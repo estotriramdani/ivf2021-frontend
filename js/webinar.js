@@ -56,7 +56,7 @@ const firstDay = [
     time: '13.30 - 14.30',
     title: 'Start Data Career with EDTS',
     company: 'PT. Elevenia Digital Teknologi Sukses',
-    link: '#hidden',//'https://cda.ipb.ac.id/eventlist/site/view/45',
+    link: 'https://cda.ipb.ac.id/eventlist/site/view/45',
   },
 ];
 
