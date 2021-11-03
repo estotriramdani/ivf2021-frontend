@@ -73,7 +73,7 @@ const secondDay = [
     time: '11.00 - 12.00',
     title: 'How to Kickstart Your Career in Digital Industry',
     company: 'PT Web Media Technology Indonesia (Niagahoster)',
-    link: '#hidden',
+    link: 'https://cda.ipb.ac.id/eventlist/site/view/48',
   },
   {
     id: 3,
@@ -97,7 +97,7 @@ const thirdDay = [
     time: '11.00 - 12.00',
     title: 'Start Your Journey With Us',
     company: 'PT Indogal Agro Trading',
-    link: '#hidden',
+    link: 'https://cda.ipb.ac.id/eventlist/site/view/49',
   },
   {
     id: 3,
