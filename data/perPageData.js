@@ -258,6 +258,13 @@ const internExpo = [
     link: 'https://cda.ipb.ac.id/member/employer/view/53566/pt-ravindo-sukses-mulia',
     width: '200',
   },
+  {
+    id:3,
+    title: 'Penny Growing',
+    image: 'penny-growing.jpeg',
+    link: 'company-detail/penny-growing.html',
+    width: '200',
+  },
 ];
 
 const entreExpo = [

@@ -704,6 +704,25 @@ const vacancies = [
       },
     ],
   },
+  {
+    id: 24,
+    name: 'Penny Growing',
+    logo: 'penny-growing.jpeg',
+    link: 'company-detail/penny-growing..html',
+    address: 'Kota Administrasi Jakarta Barat',
+    vacancies: [
+      {
+        id: 1,
+        position: 'Data Tech-Analyst Internship',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4445/data-tech-analyst-internship',
+      },
+      {
+        id: 2,
+        position: 'Field Leader Internship',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4444/field-leader-internship',
+      },
+    ],
+  },
   /*{
     id: ,
     name: '',
