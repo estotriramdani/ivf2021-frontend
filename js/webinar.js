@@ -192,10 +192,10 @@ const seventhDay = [
 const eigthDay = [
   {
     id: 1,
-    time: '9.30 - 10.30',
+    time: '10.30 - 11.30',
     title: 'DSN Goes To Campus : Build Your Career Up!',
     company: 'PT. Dharma Satya Nusantara, Tbk',
-    link: '#hidden',
+    link: 'https://cda.ipb.ac.id/eventlist/site/view/50',
   },
  
 ];
