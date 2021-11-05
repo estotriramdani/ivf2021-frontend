@@ -79,7 +79,7 @@ const secondDay = [
     id: 3,
     time: '13.30 - 14.30',
     title: '',
-    company: '',
+    company: 'Fuse',
     link: '#hidden',
   },
 ];
@@ -90,7 +90,7 @@ const thirdDay = [
     time: '9.30 - 10.30',
     title: 'Info session Scholarship MM di PPM School of Management',
     company: 'PPM School of Management',
-    link: '#hidden',
+    link: 'https://cda.ipb.ac.id/eventlist/site/view/52',
   },
   {
     id: 2,
@@ -150,9 +150,9 @@ const fifthDay = [
   {
     id: 3,
     time: '13.30 - 14.30',
-    title: 'Study in Holland',
+    title: 'Study in the Netherlands',
     company: 'GROW Dutch',
-    link: '#hidden',
+    link: 'https://cda.ipb.ac.id/eventlist/site/view/54',
   },
 ];
 const sixthDay = [
@@ -161,19 +161,19 @@ const sixthDay = [
     time: '9.30 - 10.30',
     title: 'Study in the Netherlands at Leiden University',
     company: 'Leiden University',
-    link: '#hidden',
+    link: 'https://cda.ipb.ac.id/eventlist/site/view/53',
   },
   {
     id: 2,
     time: '11.00 - 12.00',
-    title: '',
-    company: '',
+    title: 'The Importance of Internship Abroad in Post-Pandemic Era',
+    company: 'AIESEC',
     link: '#hidden',
   },
   {
     id: 3,
     time: '13.30 - 14.30',
-    title: '',
+    title: 'Erasmus Scholarship Information',
     company: 'Erasmus',
     link: '#hidden',
   },
