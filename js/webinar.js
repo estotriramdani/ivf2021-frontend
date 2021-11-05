@@ -102,9 +102,9 @@ const thirdDay = [
   {
     id: 3,
     time: '13.30 - 14.30',
-    title: '',
+    title: 'Berkarya untuk Nusantara bersama LinkAja',
     company: 'LinkAja',
-    link: '#hidden',
+    link: 'https://cda.ipb.ac.id/eventlist/site/view/51',
   },
 ];
 
