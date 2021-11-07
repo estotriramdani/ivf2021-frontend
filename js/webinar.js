@@ -112,9 +112,9 @@ const fourthDay = [
   {
     id: 1,
     time: '9.30 - 10.30',
-    title: '',
+    title: 'A simple way to make your CV attractive and stand out',
     company: 'PT Home Center Indonesia',
-    link: '#hidden',
+    link: 'https://cda.ipb.ac.id/eventlist/site/view/55',
   },
   {
     id: 2,
@@ -136,9 +136,9 @@ const fifthDay = [
   {
     id: 1,
     time: '9.30 - 10.30',
-    title: '',
+    title: 'JLDP Recruitment Process and Alumni Sharing',
     company: 'Astra Credit Companies',
-    link: '#hidden',
+    link: 'https://cda.ipb.ac.id/eventlist/site/view/56',
   },
   {
     id: 2,
