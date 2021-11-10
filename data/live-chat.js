@@ -3,14 +3,14 @@ const liveChatCommpanies = [
     id: 1,
     name: 'Niagahoster',
     logo: 'niagahoster.jpeg',
-    link: 'link ke live chat',
+    link: 'company-detail/niagahoster.html',
     width: '200',
   },
   {
     id: 2,
-    name: 'Contoh lagi',
-    logo: 'apic.png',
-    link: 'link ke live chat',
+    name: 'Coca-Cola Europacific Partners Indonesia (CCEP Indonesia)',
+    logo: 'coca-cola-europacific-partners-indonesia.png',
+    link: 'company-detail/coca-cola-europacific-partners-indonesia.html',
     width: '200',
   },
 ];
