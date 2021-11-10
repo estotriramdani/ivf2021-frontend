@@ -167,6 +167,13 @@ const careerExpo = [
     link: 'company-detail/pt-perfetti-van-melle-indonesia.html',
     width: '200',
   },
+  {
+    id:26,
+    title: 'FUSE',
+    image: 'fuse.jpg',
+    link: 'company-detail/fuse.html',
+    width: '200',
+  },
   /*{
     id:,
     title: '',

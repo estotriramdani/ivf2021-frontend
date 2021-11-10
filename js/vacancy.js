@@ -723,6 +723,70 @@ const vacancies = [
       },
     ],
   },
+  {
+    id: 25,
+    name: 'FUSE',
+    logo: 'fuse.jpg',
+    link: 'company-detail/fuse.html',
+    address: 'Kota Administrasi Jakarta Barat , DKI Jakarta',
+    vacancies: [
+      {
+        id: 1,
+        position: 'Business Suport Officer',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4458/business-suport-officer',
+      },
+      {
+        id: 2,
+        position: 'Accounting Supervisor',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4457/accounting-supervisor',
+      },
+      {
+        id: 3,
+        position: 'Trainer',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4456/trainer',
+      },
+      {
+        id: 4,
+        position: 'Billing Officer',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4455/billing-officer',
+      },
+      {
+        id: 5,
+        position: 'Underwriting',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4454/underwriting',
+      },
+      {
+        id: 6,
+        position: 'Relationship Manager',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4453/relationship-manager',
+      },
+      {
+        id: 7,
+        position: 'Customer Services',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4452/customer-services',
+      },
+      {
+        id: 8,
+        position: 'Telemarketing',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4451/telemarketing',
+      },
+      {
+        id: 9,
+        position: 'Internship IT',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4450/internship-it',
+      },
+      {
+        id: 10,
+        position: 'Internship Business Support',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4449/internship-business-support',
+      },
+      {
+        id: 11,
+        position: 'Internship Finance',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4448/internship-finance',
+      },
+    ],
+  },
   /*{
     id: ,
     name: '',
