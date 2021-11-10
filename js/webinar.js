@@ -47,9 +47,9 @@ const firstDay = [
   {
     id: 2,
     time: '11.00 - 12.00',
-    title: '',
+    title: 'GGF Graduates Program',
     company: 'PT. Great Giant Pineapple',
-    link: '#hidden',
+    link: 'https://cda.ipb.ac.id/eventlist/site/view/58',
   },
   {
     id: 3,
@@ -175,7 +175,7 @@ const sixthDay = [
     time: '13.30 - 14.30',
     title: 'Erasmus Scholarship Information',
     company: 'Erasmus',
-    link: '#hidden',
+    link: 'https://cda.ipb.ac.id/eventlist/site/view/57',
   },
 ];
 const seventhDay = [
