@@ -11,7 +11,7 @@ liveChatCommpanies.forEach((data) => {
     data.logo,
     data.width,
     '#0c8deb',
-    '_blank'
+    '_self'
   );
 });
 
