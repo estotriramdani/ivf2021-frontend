@@ -64,9 +64,9 @@ const secondDay = [
   {
     id: 1,
     time: '9.30 - 10.30',
-    title: '',
-    company: '',
-    link: '#hidden',
+    title: 'Preparing & Exploring career',
+    company: 'CDA IPB',
+    link: 'https://cda.ipb.ac.id/eventlist/site/view/60',
   },
   {
     id: 2,
@@ -78,9 +78,9 @@ const secondDay = [
   {
     id: 3,
     time: '13.30 - 14.30',
-    title: '',
+    title: 'Life at Start Up: Boost your career in Tech Company',
     company: 'Fuse',
-    link: '#hidden',
+    link: 'https://cda.ipb.ac.id/eventlist/site/view/59',
   },
 ];
 
@@ -168,7 +168,7 @@ const sixthDay = [
     time: '11.00 - 12.00',
     title: 'The Importance of Internship Abroad in Post-Pandemic Era',
     company: 'AIESEC',
-    link: '#hidden',
+    link: 'https://cda.ipb.ac.id/eventlist/site/view/61',
   },
   {
     id: 3,
