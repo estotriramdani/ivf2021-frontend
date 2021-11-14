@@ -20,5 +20,11 @@ const liveChatCommpanies = [
     link: 'company-detail/bina-nusantara-group.html',
     width: '200',
   },
-  
+  {
+    id: 4,
+    name: 'PT. Dharma Satya Nusantara, Tbk (DSN Group)',
+    logo: 'pt-dharma-satya-nusantara-tbk.jpg',
+    link: 'company-detail/pt-dharma-satya-nusantara-tbk.html',
+    width: '200',
+  },
 ];
