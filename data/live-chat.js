@@ -27,4 +27,11 @@ const liveChatCommpanies = [
     link: 'company-detail/pt-dharma-satya-nusantara-tbk.html',
     width: '200',
   },
+  {
+    id: 5,
+    name: 'Astra Credit Companies',
+    logo: 'astra-credit-companies.jpg',
+    link: 'company-detail/astra-credit-companies.html',
+    width: '200',
+  },
 ];
