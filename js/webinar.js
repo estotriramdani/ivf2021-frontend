@@ -42,21 +42,21 @@ const firstDay = [
     title:
       'Unlock your potential and plan your career journey with CCEP Indonesia',
     company: 'Coca-Cola Europacific Partners Indonesia (CCEP Indonesia)',
-    link: 'https://cda.ipb.ac.id/eventlist/site/view/43',
+    link: '#tutup',
   },
   {
     id: 2,
     time: '11.00 - 12.00',
     title: 'GGF Graduates Program',
     company: 'PT. Great Giant Pineapple',
-    link: 'https://cda.ipb.ac.id/eventlist/site/view/58',
+    link: '#tutup',
   },
   {
     id: 3,
     time: '13.30 - 14.30',
     title: 'Start Data Career with EDTS',
     company: 'PT. Elevenia Digital Teknologi Sukses',
-    link: 'https://cda.ipb.ac.id/eventlist/site/view/45',
+    link: '#tutup',
   },
 ];
 
@@ -66,21 +66,21 @@ const secondDay = [
     time: '9.30 - 10.30',
     title: 'Preparing & Exploring career',
     company: 'CDA IPB',
-    link: 'https://cda.ipb.ac.id/eventlist/site/view/60',
+    link: '#tutup',
   },
   {
     id: 2,
     time: '11.00 - 12.00',
     title: 'How to Kickstart Your Career in Digital Industry',
     company: 'PT Web Media Technology Indonesia (Niagahoster)',
-    link: 'https://cda.ipb.ac.id/eventlist/site/view/48',
+    link: '#tutup',
   },
   {
     id: 3,
     time: '13.30 - 14.30',
     title: 'Life at Start Up: Boost your career in Tech Company',
     company: 'Fuse',
-    link: 'https://cda.ipb.ac.id/eventlist/site/view/59',
+    link: '#tutup',
   },
 ];
 
