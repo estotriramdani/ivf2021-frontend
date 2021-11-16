@@ -787,6 +787,41 @@ const vacancies = [
       },
     ],
   },
+  {
+    id: 26,
+    name: 'PT. Codebrick Indonesia (Toko Talk)',
+    logo: 'codebrick.jpeg',
+    link: 'company-detail/codebrick.html',
+    address: 'Kota Administrasi Jakarta Selatan , DKI Jakarta',
+    vacancies: [
+      {
+        id: 1,
+        position: 'Business Analyst',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4466/business-analyst',
+      },
+      {
+        id: 2,
+        position: 'Product Operations',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4465/product-operations',
+      },
+      {
+        id: 3,
+        position: 'Content Writer',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4464/content-writer',
+      },
+      {
+        id: 4,
+        position: 'Seller Activation Associate',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4463/seller-activation-associate',
+      },
+      {
+        id: 5,
+        position: 'Seller Management Associate',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4462/seller-management-associate',
+      },
+     
+    ],
+  },
   /*{
     id: ,
     name: '',
