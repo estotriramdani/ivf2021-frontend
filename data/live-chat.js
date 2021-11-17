@@ -34,4 +34,11 @@ const liveChatCommpanies = [
     link: 'company-detail/astra-credit-companies.html',
     width: '200',
   },
+  {
+    id: 6,
+    name: 'PPM School of Management',
+    logo: 'ppm-school-of-management.jpeg',
+    link: 'company-detail/ppm-school-of-management.html',
+    width: '200',
+  },
 ];

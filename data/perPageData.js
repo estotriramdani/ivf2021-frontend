@@ -176,7 +176,7 @@ const careerExpo = [
   },
   {
     id:27,
-    title: 'PT Codebrick Indonesia (Toko Talk)',
+    title: 'PT. Codebrick Indonesia (Toko Talk)',
     image: 'codebrick.jpeg',
     link: 'company-detail/codecbrick.html',
     width: '200',
