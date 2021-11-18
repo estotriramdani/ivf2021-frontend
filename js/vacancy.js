@@ -822,6 +822,20 @@ const vacancies = [
      
     ],
   },
+  {
+    id: 27,
+    name: 'PT. ADAMARINDO',
+    logo: 'adamarindo.jpeg',
+    link: 'company-detail/adamarindo.html',
+    address: 'Kota Administrasi Jakarta Barat , DKI Jakarta',
+    vacancies: [
+      {
+        id: 1,
+        position: 'Marketing Executive for Food Ingredients',
+        link: 'https://cda.ipb.ac.id/vacancy/site/view/4467/marketing-executive-for-food-ingredients',
+      },
+    ],
+  },
   /*{
     id: ,
     name: '',

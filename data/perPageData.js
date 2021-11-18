@@ -181,6 +181,13 @@ const careerExpo = [
     link: 'company-detail/codecbrick.html',
     width: '200',
   },
+  {
+    id:28,
+    title: 'PT. ADAMARINDO',
+    image: 'adamarindo.jpeg',
+    link: 'company-detail/adamarindo.html',
+    width: '200',
+  },
   /*{
     id:,
     title: '',
