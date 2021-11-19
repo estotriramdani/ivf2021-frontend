@@ -41,4 +41,18 @@ const liveChatCommpanies = [
     link: 'company-detail/ppm-school-of-management.html',
     width: '200',
   },
+  {
+    id: 7,
+    name: 'PT. Great Giant Pineapple (Great Giant Foods)',
+    logo: 'pt-great-giant-pineapple.png',
+    link: 'company-detail/pt-great-giant-pineapple.html',
+    width: '200',
+  },
+  {
+    id: 8,
+    name: 'PT. Home Centre Indonesia (Informa)',
+    logo: 'pt-home-center-indonesia.jpg',
+    link: 'company-detail/pt-home-center-indonesia.html',
+    width: '200',
+  },
 ];
